@@ -5,22 +5,170 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amadi Samuel Personal Portfolio</title>
 
-    <!-- google font -->
-     
+
+    <!-- Web Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-    <!-- web icons -->
-
-
-
-    <!-- external style sheets -->
+    <!-- External Style Sheets -->
     <link rel="stylesheet" href="../css/universal.css">
     <link rel="stylesheet" href="../css/media768px.css">
     <link rel="stylesheet" href="../css/media1500px.css">
     <link rel="stylesheet" href="../css/media1000px.css">
 
 </head>
+
 <body>
+
+    <header>
+        <nav>
+            <div class="brand-logo">
+                 <a href="#">
+                    <img src="../images/logo 1.png" alt="ejimax-c logo icon">
+                </a>
+            </div>
+        
+            <ul class="desktop-navigation-links">
+                <li><a href="#Home-section">Home</a></li>
+                <li><a href="#About-section">About</a></li>
+                <li><a href="#Skills-section">Skills</a></li>
+                <li><a href="#Projects-section">Projects</a></li>
+                <li><a href="#Contacts-section">Contacts</a></li>
+            </ul>
+                
+            <!-- Small Mobile Screens -->
+            <div class="mobile">
+        
+                <!-- Mobile Menu Hamburger -->
+                <button>
+                    <i class="fa-solid fa-bars"></i>
+                    <span class="menu">Menu</span>
+                </button>
+        
+                <!-- Mobile Menu Dropdown -->
+                <ul class="mobile-dropdown">
+                    <li><a href="#Home-section">Home</a></li>
+                    <li><a href="#About-section">About</a></li>
+                    <li><a href="#Skills-section">Skills</a></li>
+                    <li><a href="#Projects-section">Projects</a></li>
+                    <li><a href="#Contact-section">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+        <section id="#Home-section" class="hero">
+
+            <p>Hello!</p>
+
+            <h1>I'm Amadi Samuel, a Fullstack-Web Developer in Training</h1>
+
+            <a href="#Projects-section">View My Work</a>
+        </section>
+
+        <section id="#About-section" class="about">
+
+            <h2>Who Am I?</h2>
+
+            <p></p>
+            <p></p>
+
+            <a href="">Download CV</a>
+        </section>
+
+        <section id="#Skills-section" class="skills">
+
+            <h2>Aquired Skills</h2>
+
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>GIT</li>
+                <li>GITHUB</li>
+            </ul>
+        </section>
+
+        <section id="#Projects-section" class="projects">
+
+            <h2>What I've Built</h2>
+
+            <div class="project-images">
+                <ul>
+                    <li>
+                        <img src="../images/project 1 img.jpg" alt="project-1">
+                        <h3>Health Care Webpage</h3>
+                        <dd>This project was a group collaboration project to showcase the ability of being ablie to work with a team. This also a project that hosts a proper Health care service Webpage with necceccary health care layout and information for client appointment bookings ant more info.</dd>
+                    </li>
+
+                    <li>
+                        <img src="../images/project 2 img.jpg" alt="project-2">
+                        <h3>My Web-dev Juorney</h3>
+                        <dd>this showceses the personal practice lessons for a better understanding of HTML structure and adding of inline css stylings.</dd>
+                    </li>
+
+                    <li>
+                        <img src="../images/project 3 img.jpg" alt="project-3">
+                        <h3>Semantic Web Tructuring</h3>
+                        <dd>This project dives deeper into HTML semantic structuring and a broader understanding and arrangment of a Markup language foe a responsive web desing proces. </dd>
+                    </li>
+
+                    <li>
+                        <img src="../images/project 4 img.jpg" alt="project-4">
+                        <h3>Motivation Quote</h3>
+                        <dd>a simple motivationa qoute on our value to clients and the society at large.</dd>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="">Download CV</a>
+        </section>
+
+        <section id="#Contact-section" class="contact">
+
+            <h3>Get In Touch!</h3>
+            <p>Keep up-to-date with what I'm up to!</p>
+            <p>Track my training skills; and to provide quality services kindly fill the form below and any observations in the message area.</p>
+
+            <div class="contact-form-and-icons">
+                <div class="contact-icons">
+
+
+                </div>
+                
+                <form action="" class="form">
+                    <fieldset>
+                        <legend>Have Any Questions?</legend>
+                        <p></p>
+
+                        <input type="text" placeholder="Name">Name</input>
+
+                        <input type="text" placeholder="E-mail">Enter E-mail</input>
+
+                        <input type="text-area" placeholder="Message">Enter Message</input>
+
+                        <button class="btn">
+                            Submit
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-items">
+            <p>
+                © Copyright 2026. • Supervised by Turing Tech Team • All right reserved, Amadi Samuel.
+            </p>
+
+
+
+        </div>
+
+
+    </footer>
     
 </body>
 </html>
