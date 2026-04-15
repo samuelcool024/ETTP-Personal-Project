@@ -15,21 +15,19 @@
 
 
     <!-- External Style Sheets -->
-    <link rel="stylesheet" href="../css/universal.css">
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/media768px.css">
-    <link rel="stylesheet" href="../css/media1500px.css">
     <link rel="stylesheet" href="../css/media1000px.css">
+    <link rel="stylesheet" href="../css/media1500px.css">
 
 </head>
 
 <body>
-
+    <div id="Home-section"></div>
     <header>
         <nav>
             <div class="brand-logo">
-                 <a href="#">
                     <img src="../images/logo 1.png" alt="ejimax-c logo icon">
-                </a>
             </div>
         
             <ul class="desktop-navigation-links">
@@ -43,12 +41,6 @@
             <!-- Small Mobile Screens -->
             <div class="mobile">
         
-                <!-- Mobile Menu Hamburger -->
-                <button>
-                    <i class="fa-solid fa-bars"></i>
-                    <span class="menu">Menu</span>
-                </button>
-        
                 <!-- Mobile Menu Dropdown -->
                 <ul class="mobile-dropdown">
                     <li><a href="#Home-section">Home</a></li>
@@ -58,27 +50,38 @@
                     <li><a href="#Contact-section">Contacts</a></li>
                 </ul>
             </div>
+
+            <!-- Mobile Menu Hamburger -->
+            <button>
+                <i class="fa-solid fa-bars"></i>
+                <span class="menu">Menu</span>
+            </button>
+
         </nav>
     </header>
 
-        <section id="#Home-section" class="hero">
+        <section class="hero-section">
 
-            <p>Hello!</p>
+            <div class="intro-writeup">
+                <p>Hello!</p>
+                <h1>I'm <span class="h1-span">Amadi Samuel</span>  </h1>
+                <p>A Fullstack-Web Developer in Training</p>
+            </div>
 
-            <h1>I'm Amadi Samuel, a Fullstack-Web Developer in Training</h1>
+            <a href="#Projects-section">View My Work</a>  
 
-            <a href="#Projects-section">View My Work</a>
+            <div class="blur"></div>
         </section>
 
-        <section id="#About-section" class="about">
+        <section id="About-section" class="about-section">
 
-            <h2>Who Am I?</h2>
+            <h2>Who I Am</h2>
 
             <div class="about-sub-container">
 
                 <img src="../images/amadi 2.jpg" alt="profile image">
 
-                <div class="about-pragraph">
+                <div class="about-paragraphs">
                     <p>I am Amadi Samuel a native of Affa in Enugu, UDI LGA.
                         I am 5feet-8 in height and chocolate in complection
                         Adventure has always been pert of me, the quest to know better and a little of alot of things
@@ -108,19 +111,19 @@
             <a href="">Download CV</a>
         </section>
 
-        <section id="#Skills-section" class="skills">
+        <section id="Skills-section" class="skills-section">
 
             <h2>Aquired Skills</h2>
 
             <ul class="skills-list">
-                <li><img src="../Icons/html5-brands-solid-full.svg" alt="html5 icon" >HTML</li>
-                <li><img src="../Icons/css3-alt-brands-solid-full.svg" alt="css icon" >CSS</li>
-                <li><img src="../Icons/git-alt-brands-solid-full.svg" alt="git bash icon" >GIT</li>
-                <li><img src="../Icons/github-brands-solid-full.svg" alt="github icon" >GITHUB</li>
+                <li><img class="skills-icon" src="../Icons/html5-brands-solid-full.svg" alt="html5 icon" >HTML</li>
+                <li><img class="skills-icon" src="../Icons/css3-alt-brands-solid-full.svg" alt="css icon" >CSS</li>
+                <li><img class="skills-icon" src="../Icons/git-alt-brands-solid-full.svg" alt="git bash icon" >GIT</li>
+                <li><img class="skills-icon" src="../Icons/github-brands-solid-full.svg" alt="github icon" >GITHUB</li>
             </ul>
         </section>
 
-        <section id="#Projects-section" class="projects">
+        <section id="Projects-section" class="projects">
 
             <h2>What I've Built</h2>
 
@@ -155,7 +158,7 @@
             <a href="">Download CV</a>
         </section>
 
-        <section id="#Contact-section" class="contact">
+        <section id="Contact-section" class="contact-section">
 
             <h3>Get In Touch!</h3>
             <p>Keep up-to-date with what I'm up to!</p>
@@ -163,20 +166,22 @@
 
             <div class="contact-form-and-icons">
                 <div class="contact-icons">
-
+                    <img class="contact-icon" src="../Icons/phone-solid-full.svg" alt="phone icon">
+                    <img class="contact-icon" src="../Icons/@ icon-solid-full.svg" alt="mail icon">
+                    <img class="contact-icon" src="../Icons/location-dot-solid-full.svg" alt="location icon">
 
                 </div>
                 
-                <form action="" class="form">
+                <form action="" id="form" class="form">
                     <fieldset>
                         <legend>Have Any Questions?</legend>
                         <p></p>
 
-                        <input type="text" placeholder="Name">Name</input>
+                        <input type="text" name="Name" id="name" autocomplete="on">Full Name</input>
 
-                        <input type="text" placeholder="E-mail">Enter E-mail</input>
+                        <input type="text" name="e-mail" placeholder="E-mail" id="e-mail" autocomplete="off">Enter E-mail</input>
 
-                        <input type="text-area" placeholder="Message">Enter Message</input>
+                        <textarea name="message" id="message" autocomplete="on">Enter Text</textarea>
 
                         <button class="btn">
                             Submit
@@ -187,17 +192,17 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer-section">
         <div class="footer-items">
             <p>
                 © Copyright 2026. • Supervised by Turing Tech Team • All right reserved, Amadi Samuel.
             </p>
 
             <div class="footer-social-icons">
-                <img src="../Icons/facebook-brands-solid-full.svg" alt="icon-facebook">
-                <img src="../Icons/linkedin-brands-solid-full.svg" alt="icon-linked in">
-                <img src="../Icons/square-x-twitter-brands-solid-full.svg" alt="icon-x">
-                <img src="../Icons/github-brands-solid-full.svg" alt="icon-github">
+                <img class="footer-icon" src="../Icons/facebook-brands-solid-full.svg" alt="icon-facebook">
+                <img class="footer-icon" src="../Icons/linkedin-brands-solid-full.svg" alt="icon-linked in">
+                <img class="footer-icon" src="../Icons/square-x-twitter-brands-solid-full.svg" alt="icon-x">
+                <img class="footer-icon" src="../Icons/github-brands-solid-full.svg" alt="icon-github">
             </div>
         </div>
     </footer>
