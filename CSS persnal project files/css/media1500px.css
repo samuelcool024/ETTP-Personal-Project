@@ -4,3 +4,63 @@
     box-sizing: border-box;
 }
 
+@media (min-width: 1500px) {
+
+    /* About-section */
+
+    .about-section {
+        flex-grow: 2;
+    }
+
+    .about-sub-container {
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: auto; */
+        padding-left: 15rem;
+    }
+
+    .about-paragraphs p, ul {
+        font-size: 20px;
+    }
+
+    /* Sskills-section */
+
+    .skills-section p {
+        font-size: 20px;
+    }
+
+
+    /* Projects section */
+
+    .project-images dd {
+        font-size: 20px;
+    }
+
+
+    /* Contact-section */
+
+    .contact-section {
+        font-size: 20px;
+    }
+    
+    .contact-icons {
+        padding: 0;
+    }
+
+    .contact-icons ul {
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    } 
+
+    .form p {
+        font-size: 20px;
+    }
+
+
+    /* Footer-section */
+
+    .footer-items p{
+        font-size: 22px;
+    }
+}
