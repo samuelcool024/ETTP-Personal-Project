@@ -39,23 +39,26 @@
 
     /* Contact-section */
 
-    .contact-section {
-        font-size: 20px;
-    }
+        .contact-icons ul li {
+            gap: 1rem;
+        }
     
-    .contact-icons {
-        padding: 0;
-    }
-
-    .contact-icons ul {
-        justify-content: space-between;
+        .contact-icons a {
+            padding: 0;
+        }
+        
+        
+        .contact-section {
+            font-size: 20px;
+        }
+        
+        
+        .contact-icons ul {
+        /* display: flex; */
+        justify-content: space-around;
         width: 100%;
         padding: 0;
     } 
-
-    .form p {
-        font-size: 20px;
-    }
 
 
     /* Footer-section */
