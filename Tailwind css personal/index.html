@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>ejimax-c tailwind project</title>
+ 
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body class="bg-dark-blue text-white font-sans">
+
+    <header id="Home" class="h-21 w-full border-b border-white/30 bg-dark-blue mb-8 sticky top-0 z-50">
+
+        <nav class="h-full flex flex-row  items-center justify-between py-4 px-10 bottom-3">
+
+            <!-- logo -->
+            <div class="flex flex-row items-center gap-2">
+
+                <img  class="w-14 h-14 rounded-full" src="./assets/images/20220426_192020_0000.png" alt="logo icon">
+
+                <h1 class="text-pri-green font-medium">EJIMAX-C</h1>
+            </div>
+
+            <!-- navigation -->
+                <ul class="hidden  felx flex-row items-center gap-6">
+                    <li class=" ">
+                        <a class="" href="#Home">Home</a>
+                    </li>
+
+                    <li class="">
+                        <a class="" href="#Services">Services</a>
+                    </li>
+                    
+                    <li class="">
+                        <a class="" href="#About">About</a>
+                    </li>
+
+                    <li class="">
+                        <a class="" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+
+            <!-- hamburger menu -->
+            <div class="gap-8 flex flex-row items-center">
+
+                <i class="fa-solid fa-bars-staggered" style="color: rgb(255, 255, 255);"></i>
+
+                <!-- call to action button -->
+                <button class="bg-light-blue py-2 px-4 rounded hover:bg-light-blue/80 transition duration-300">
+                    Get In Touch
+                </button>
+            </div>
+
+        </nav>
+    </header>
+    
+    <main class="">
+
+            <!-- hero section -->
+        <section class="flex flex-row items-center gap-6 text-center py-10 px-10" >
+
+            <div class="text-start ">
+                <h1 class="text-5xl font-bold mb-4">
+                    Build Your <span class="text-light-blue">Digital</span> Future
+                </h1>
+
+                <p class="text-white/75 pr-10">
+                    Transform yor business with cutting-edge solutions the drive growth and innovation
+                    in the digital landscape.
+                </p>
+                
+                <div class="flex flex-row gap-4 mt-6">
+                    <button class="bg-light-blue py-2 px-4 rounded hover:bg-light-blue/80 transition duration-300
+                    cursor-pointer">
+                        Start Your Journey
+                    </button>
+                    
+                    <button class="border border-white/35 py-2 px-4 rounded hover:bg-white/25 transition duration-300
+                    cursor-pointer">
+                        Learn More
+                    </button>
+                </div>    
+            </div>
+
+            <img class="w-8/10 max-h-60 rounded-2xl" src="./assets/images/hero-image.png" alt="laptop on desk image">
+        </section>
+        
+
+            <!-- Our Services -->
+        <section id="Services" class="flex flex-col items-center justify-center bg-blue-shade/60 
+            py-10 px-10 gap-3 ">
+
+            <h1 class="text-3xl font-bold ">
+                Our Services
+            </h1>
+
+            <p class="text-white/80">
+            We provide comprehensive solutions to help your business thrive in the digital age 
+            </p>
+
+            <div class="grid grid-cols-3 gap-6 mt-8">
+
+                <div class="flex flex-col bg-[#252d3a] p-6 rounded-lg border border-white/30 text-start gap-3
+                    hover:scale-[1.05] transition duration-300">
+
+                    <span class="flex items-center justify-center rounded-2xl bg-light-blue w-10 h-10 ">
+                        <i class="fa-solid fa-code" style="color: rgb(255, 255, 255);"></i>
+                    </span>
+
+                    <h4 class="font-medium">
+                        Web Development
+                    </h4>
+
+                    <p class="text-white/80">
+                        Custom websites and web applications built with modern technologies for optimal performance. 
+                    </p>
+
+                </div>
+
+
+                <div class="flex flex-col bg-[#252d3a] p-6 rounded-lg border border-white/30 text-start gap-3
+                    hover:scale-[1.05] transition duration-300">
+
+                    <span class="flex items-center justify-center rounded-2xl bg-pri-green w-10 h-10 ">
+                        <i class="fa-solid fa-mobile" style="color: rgb(255, 255, 255);"></i>
+                    </span>
+
+                    <h4  class="font-medium">
+                        Mobile App
+                    </h4>
+
+                    <p class="text-white/80">
+                        Native and cross-platform mobile applications that deliver exceptional user experiences. 
+                    </p>
+
+                </div>
+
+
+                <div class="flex flex-col bg-[#252d3a] p-6 rounded-lg border border-white/30 text-start gap-3
+                    hover:scale-[1.05] transition duration-300">
+
+                    <span class="flex items-center justify-center rounded-2xl bg-purple-600 w-10 h-10 ">
+                        <i class="fa-solid fa-chart-line" style="color: rgb(255, 255, 255);"></i>
+                    </span>
+
+                    <h4  class="font-medium">
+                        Digital Marketing
+                    </h4>
+
+                    <p class="text-white/80">
+                        Strategic marketing campaigns that boost your online presence and drive conversions. 
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+            <!-- about Ejimax-c -->
+        <section id="About"  class="flex gap-8 px-10 py-10">
+
+            <img class=" w-7xl max-w-7xl max-h-60 rounded-2xl" src="./assets/images/about-image.png" alt="office tech staffs discussing">
+
+            <div class="flex flex-col gap-4">
+                <h1  class="text-3xl font-bold ">
+                    About Ejimax-C
+                </h1>
+
+                <p class="text-white/80">
+                    We are a forward-thinking technology company dedicated to helping companies navigate 
+                    the digital transformation journey. With years of experience and a passion for innovation,
+                    we deliver solutions that matter.     
+                </p>
+
+                <div class="flex flex-row gap-20 mt-3">
+                    <div>
+                        <p class="font-bold text-2xl text-light-blue">150+</p>
+
+                        <p class="text-white/80 text-xs">Projects Completed</p>
+                    </div>
+
+                    <div>
+                        <p class="font-bold text-2xl text-pri-green">98%</p>
+
+                        <p class="text-white/80 text-xs ">Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!-- get in touch -->
+        <section id="Contact" class="flex flex-col items-center justify-center py-10 px-10 gap-4 bg-blue-shade">
+
+            <h1 class="text-3xl font-bold">
+                Get In Touch
+            </h1>
+
+            <p class="text-white/80 text-center mb-3">
+                Ready to start your project? Let's discuss how we can help you achieve your goals.
+            </p>
+
+            <div class="flex flex-row gap-10 justify-around border border-white/30 rounded-lg p-6 w-75/100 
+                bg-[#252d3a] max-w-4xl">
+                
+                <div class="text-start mb-6 gap-4 flex flex-col items-start">
+        
+                    <div class="text-sm">
+                        <i class="fa-solid fa-envelope" style="color: rgb(78, 78, 252);"></i>
+                        hallo@ejimax-c.com
+                    </div>
+        
+                    <div class="text-sm">
+                        <i class="fa-solid fa-phone" style="color: rgb(78, 78, 252);"></i>
+                        +234 (081) 123 000 00
+                    </div>
+        
+                    <div class="text-sm">
+                        <i class="fa-solid fa-location-dot" style="color: rgb(78, 78, 252);"></i>
+                        042 Business Ave, Tech City
+                    </div>
+        
+                </div>
+        
+                <form action="" class="flex flex-col gap-4 w-4/10 ">
+        
+                    <input type="text" name="" id="" placeholder="Your Name"
+                    class="bg-[#2b405b] text-sm p-2 rounded-lg">
+        
+                    <input type="text" name="" id="" placeholder="Your Email"
+                    class="bg-[#2b405b] text-sm p-2 rounded-lg">
+        
+                    <!-- <input type="text" name="" id="" placeholder=""> -->
+        
+                    <textarea name="" id="" placeholder="Your Message" rows="5" cols="5"
+                    class="bg-[#2b405b] text-sm p-2 rounded-lg"></textarea>
+                
+                    <button class="bg-light-blue text-white py-2 px-4 rounded-lg hover:bg-blue-600">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="flex flex-row items-center justify-between py-4 px-10 border-t border-white/30 bg-dark-blue">
+
+        <!-- logo -->
+        <div class="flex flex-row items-center gap-2">
+            <img class="w-10 h-10 rounded-full" src="./assets/images/20220426_192020_0000.png" alt="logo icon">
+        
+            <h1 class="text-medium text-pri-green font-medium">EJIMAX-C</h1>
+        </div>
+
+        <p class="text-white/80 text-medium">
+            &copy; 2024 Ejimax-C. All rights reserved. 
+        </p>
+
+        <div class="flex flex-row gap-8 items-center">
+            <span class="hover:scale-[1.4] transition"><i class="fa-brands fa-x-twitter" style="color: rgb(186, 185, 185);"></i></span>
+            <span class="hover:scale-[1.4] transition"><i class="fa-brands fa-facebook" style="color: rgb(186, 185, 185);"></i></span>
+            <span class="hover:scale-[1.4] transition"><i class="fa-brands fa-linkedin" style="color: rgb(186, 185, 185);"></i></span>
+            <span class="hover:scale-[1.4] transition"><i class="fa-brands fa-github" style="color: rgb(186, 185, 185);"></i></span>
+        </div>
+    </footer>
+        
+    
+</body>
+</html>
