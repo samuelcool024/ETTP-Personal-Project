@@ -1,0 +1,50 @@
+ENSG AI CLASS 
+
+Assignment 3 - A full website (5 to 10 pages) 
+
+Using multiple prompts and vibe engineering (not vibe coding), build a 5-10 page website
+
+The site can be a 
+     - traveling agency
+     - a blog
+     - an online newspaper
+     - a microfinance site
+     - an Old Boys / Old Girls' School site etc.,
+     - any other topic / area
+
+Choose your theme
+
+********
+
+Give your website a name and a logo
+
+Give it a menu with drop down items linking the user to the different pages of the website
+
+If you believe that you need a hero section, go ahead and include it
+
+Make the menu and the footer sticky
+
+Display every prompt used
+
+Try using chain-of-thought prompting
+
+Do not load everything in one / single prompt
+
+Work on the original vibe code and add comments to your code
+
+Use VS Code, HTML and or Tailwind CSS
+
+*******
+Prompts
+
+Display the prompts used per section
+
+Build your page using HTML, CSS and / or Tailwind CSS
+
+Insert comments in your vibe codes
+
+Ensure that you engineer your vibe codes so they take on your persona and your style 
+
+*******
+
+

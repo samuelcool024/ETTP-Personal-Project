@@ -1,0 +1,110 @@
+###### &#x09;**ENSG AI CLASS, PROMPT AND VIBE ENGINEERING ASSIGNMENT 1**
+
+
+
+THE LANDING PAGE OF MAMAPUTONLINE RESTAURANT
+
+
+
+(Using GPT-LLM, with Tailwind CSS for styling and Vscode as an IDE)
+
+GPT-chat link ======	https://chatgpt.com/share/6a22fe50-3eb4-83ea-9657-251fc88e1c68
+
+
+
+======== INITIALIZATION PROMPT ========
+
+Please as a new web dev, i would like us to build a landing page for an online take-away Nigerian cooked meal restaurant together from scratch, section by section, and to be very specific i would like you to use tailwind css for styling and Vscode as an IDE.
+
+I would like us to build this landing page using chain of thoughts method for building each section of the page while making necessary corrections before moving to the next section.
+
+And please very importantly, all codes and corrections should be done inside one landing page file, do not create multiple landing page file, maintain just the original file while making any corrections to it.
+
+use milk white for the body background color, use dark red and deep blue for primary colors, then light green and brown as secondary colors.
+
+very importantly make sure the codes you provide are fully mobile responsive, also insert detailed comments for each section.
+
+&#x20;
+
+i will provide the necessary image files for the cards section, so do not use generated images.
+
+
+
+======== HEADER SECTION ========
+
+1]	Now, for the for first section of our landing page which will be the header section. create a header section, make it position sticky, background color should be 45degree gradient of dark red and a lighter red, the header section should take full page width, and should cover up to 25% of the total page height.
+
+2]	Please create a logo design which consists of a name and icon for MamaPutOnline. position the logo icon and name at the left corner of the header section.
+
+3]	Now, create a navigation list item with the following:- Products, Services, Customer Service, Contact Us. Make the text color to be blue, text bold and sizable, position the navigation list items at the center if the header sectio
+
+4]	Now, create a search window with a search icon on the very right hand corner of the header section, the search window background should be white, and the search icon should be blue in color.
+4a] okey, implement the the design correction you suggested
+4b] please always marge the updated sections immediately into the main file
+
+5] lastly, space all items in the header section to be space between, aligned center and justified center.
+5a] you can please add the tweak so we can proceed to create a side panel
+
+6]	very importantly remember as i said in my mentioned in my initial prompt, maintain a single consistent landing page file, all corrections and new additions should be made on the original page file, do not create an external page file, thanks.
+
+
+====== SIDE PANEL =========
+
+1]	with your proposed layout Create a side panel on the left of the page directly under the header section, with a heading of CATEGORIES written in capital letters. The navigation list items:- Products, Services, Customer Service, Contact Us, should be listed in the side panel with green colored icons by the left hand side of each list item, the list items text should be blue in color and semi-bold text, please make sure to make each list item can navigate users to their linked main section on the landing page. The side panel should have a thin border of dark green with a light bottom border shadow. The side panel should have a width of 20% of page width and 25% of the total page height.
+
+
+
+2]	very importantly remember as i have stated earlier, do maintain a single consistent landing page file, all corrections and new additions should be made on the original page file, do not create an external page file, thanks.
+
+&#x09;
+
+
+
+====== HERO SECTION =======
+
+1]	The next step is creating a hero section, the hero section should placed directly under the header section by the right, it should occupy 80% of page width and at least 25% of the vertical height of the page at the right side of the side panel. The hero section should be vertically partitioned into two.
+
+One side of the hero section should display the picture of a steaming, deliciously-cooked Nigerian soup dish with the right aspect ratio and pixelization.
+
+2]	The left side partition of the hero section should have boldly-written large font, deep blue colored text, lettering inviting people to not miss the opportunity to buy freshly cooked meals from your online store.
+
+3]	The background color should be a 135degree gradient of light mix color.
+
+4]	create an attractive bold hero text to encourage customers to take action and patronize us.
+
+4a] i prefer the first hero text suggestion and you can add the order now button below the hero text
+
+5]	very importantly remember as i said in my mentioned earlier, maintain a single consistent landing page file, all corrections and new additions should be made on the original page file, do not create an external page file, thanks.
+
+
+======== MAIN SECTION =======
+
+1]	This will be the main section of the landing page which will have the following sections:- Services, Products, Customer Service, Contact Us, in the listed order. The text should be bold and sizable, dark red color, text aligned center. Please make sure that these section headings are linked to the header navigation list items and also linked to the side panel list items, it has to be responsive.
+
+2]	Now, under services section, i would like you to create an attractive piece of text, a paragraph of about five lines, explaining to a client viewing our page that we, MamaPutOnline restaurant run services which includes, Very fast Door-to-door delivery of booked daily freshly cooked local dishes through dispatch riders, Food Order taking and preparation in large quantities of our food varieties for indoor and outdoor events, making our services accessible to our customers almost round the clock daily, thereby eliminating customer stress and time delay.
+
+3]	Now, under Products section, with the images provided, create menu card as you suggested of three rows, with each row have at least 4 product cards, from the images i provided. The product cards should identify the product boldly, use the each image name as the product card name description, add food quantity like one portion or two portions, and the price in Naira ranging from 2000 naira to 4000 naira. Each image card should be arranges as follows:- image on top, name description(blue color) under, the price and portions(green color) under, then lastly the order now button link(red background and bold white text).
+
+4]	 Now, under customer service section, just draft a moderate paragraph text to enlighten our customers that we are committed to make sure that our services are top notch, and we are always ready to deal with any complaint or suggestions with top priority, and that our customer care reps are always on sit and will actively receive customers calls and escalate their complaints and suggestions as soon as possible to the management.
+
+5]	Now, under the contact us section, write the following contact details and fix an icon at the left side before the writeup, Email:- mamaputonline@mail.com, Tel:- +234 000 123 01324, address:- 20 ogui road, enugu, enugu state, Nigeria, this should be text align center, text color green.  Under the above contact information please create a form for customer information which consists of full name label and input, email label and input, comment label and a responsive text area. the form should have green a thin border line and with blue text and a width of 60% and a height of 50rem, margin auto.
+
+5a] final polish, but remember we will still add a footer section
+
+
+======== FOOTER SECTION =======
+
+1]	 create a footer section that has same restaurant logo icon and name identical to that in the header section, places at the left side of the footer, create a thankyou piece of text to thank all customers for their patronage, and  copyright text. placed at the center of the footer section, add four social media icons on the right side of the footer. apace all footer contents evenly, and it should be fully responsive on all screen sizes. The footer background should be a 135degree gradient of light red and a bit dark red, footer texts should be blue color and icons should deep green color.
+
+1a] with the final result, do not add any additional upgrades, just run the final site merging where necessary and produce the final complete page with full colors as coded
+
+1b] please in this final index file, i would like you to change all emoji icons with suitable font awsome social icons, also the footer social icons too, in the code base, it will be better
+
+1c] yes please go ahead and update the code base with the new replacements
+
+1d]
+
+&#x20;
+
+&#x20;
+

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us | EJIMAX-C WHEELS LTD</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body class="bg-[#0B0F19] text-white">
+
+    <!-- ================= HEADER ================= -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-black/50 backdrop-blur-md border-b border-gray-800">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex justify-between items-center h-20">
+
+                <a href="index.html" class="flex items-center gap-3">
+                    <i class="fas fa-car-side text-3xl text-amber-500"></i>
+                    <span class="font-bold text-xl md:text-2xl">
+                        EJIMAX-C WHEELS LTD
+                    </span>
+                </a>
+
+                <nav class="hidden lg:flex items-center gap-8">
+
+                    <a href="index.html" class="hover:text-amber-500">
+                        HOME
+                    </a>
+
+                    <a href="about.html" class="text-amber-500 font-semibold">
+                        ABOUT US
+                    </a>
+
+                    <a href="services.html" class="hover:text-amber-500">
+                        SERVICES
+                    </a>
+
+                    <div class="relative dropdown">
+
+                        <button id="dropdownButton" class="hover:text-amber-500 flex items-center gap-2">
+                            OUR CARS
+                            <i class="fas fa-chevron-down text-xs"></i>
+                        </button>
+
+                        <div id="dropdownMenu"
+                            class="dropdown-menu hidden absolute mt-3 w-56 rounded-lg bg-[#111827] border border-gray-700">
+
+                            <a href="cars.html" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">
+                                Convertibles
+                            </a>
+
+                            <a href="cars.html" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">
+                                SUVs
+                            </a>
+
+                            <a href="cars.html" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">
+                                Luxury & Sport
+                            </a>
+
+                            <a href="cars.html" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">
+                                Economical
+                            </a>
+
+                            <a href="cars.html" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">
+                                Mini-Trucks
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <a href="contact.html" class="hover:text-amber-500">
+                        CONTACT
+                    </a>
+
+                    <a href="signin.html"
+                        class="bg-amber-500 text-black px-5 py-2 rounded-lg font-semibold hover:bg-amber-400">
+                        SIGN IN
+                    </a>
+
+                </nav>
+
+                <button id="menu-btn" class="lg:hidden text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-[#111827] border-t border-gray-700">
+
+            <div class="flex flex-col p-5 space-y-4">
+
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="services.html">SERVICES</a>
+                <a href="cars.html">OUR CARS</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="signin.html">SIGN IN</a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="pt-40 pb-24">
+
+        <div class="max-w-6xl mx-auto px-6 text-center">
+
+            <span class="text-amber-500 uppercase text-lg tracking-widest font-semibold">
+                About EJIMAX-C Wheels Ltd
+            </span>
+
+            <h1 class="text-5xl md:text-7xl font-bold mt-6 leading-tight">
+                Driven By Trust,
+                <span class="text-amber-500">
+                    Powered By Excellence
+                </span>
+            </h1>
+
+            <p class="max-w-3xl mx-auto text-gray-400 mt-8 text-lg leading-8">
+                We are committed to connecting customers with quality vehicles while delivering exceptional service,
+                transparency, and long-term value.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= COMPANY STORY ================= -->
+
+    <section class="pb-24">
+
+        <div class="max-w-4xl mx-auto px-6 text-center">
+
+            <h2 class="text-4xl md:text-5xl font-bold text-amber-500 mb-8">
+                Company Story
+            </h2>
+
+            <p class="text-gray-300 text-lg leading-9">
+
+                EJIMAX-C WHEELS LTD was founded with a passion for helping individuals,
+                families, and businesses find vehicles that perfectly suit their needs.
+
+                Over the years, we have grown into a trusted automobile dealership known
+                for integrity, quality assurance, and customer-focused service.
+
+                Whether customers seek luxury vehicles, dependable SUVs, economical cars,
+                or commercial mini-trucks, our mission remains the same — delivering
+                vehicles that combine value, performance, safety, and satisfaction.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= INFORMATION CARDS ================= -->
+
+    <section class="pb-24">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Mission -->
+                <div
+                    class="bg-[#111827] p-8 rounded-2xl shadow-lg hover:-translate-y-2 hover:shadow-amber-500/20 transition duration-300">
+
+                    <i class="fas fa-bullseye text-4xl text-amber-500 mb-5"></i>
+
+                    <h3 class="text-2xl font-bold mb-4">
+                        Mission
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        To provide high-quality automobiles and unmatched customer experiences while maintaining trust,
+                        affordability, and excellence.
+                    </p>
+
+                </div>
+
+                <!-- Vision -->
+                <div
+                    class="bg-[#111827] p-8 rounded-2xl shadow-lg hover:-translate-y-2 hover:shadow-amber-500/20 transition duration-300">
+
+                    <i class="fas fa-eye text-4xl text-amber-500 mb-5"></i>
+
+                    <h3 class="text-2xl font-bold mb-4">
+                        Vision
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        To become one of the most respected automobile dealerships recognized for innovation,
+                        reliability, and customer satisfaction.
+                    </p>
+
+                </div>
+
+                <!-- Values -->
+                <div
+                    class="bg-[#111827] p-8 rounded-2xl shadow-lg hover:-translate-y-2 hover:shadow-amber-500/20 transition duration-300">
+
+                    <i class="fas fa-gem text-4xl text-amber-500 mb-5"></i>
+
+                    <h3 class="text-2xl font-bold mb-4">
+                        Our Values
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        Integrity, professionalism, transparency, innovation, and a commitment to delivering outstanding
+                        customer value.
+                    </p>
+
+                </div>
+
+                <!-- Trust -->
+                <div
+                    class="bg-[#111827] p-8 rounded-2xl shadow-lg hover:-translate-y-2 hover:shadow-amber-500/20 transition duration-300">
+
+                    <i class="fas fa-handshake text-4xl text-amber-500 mb-5"></i>
+
+                    <h3 class="text-2xl font-bold mb-4">
+                        Why Customers Trust Us
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        Our dedication to honest transactions, quality vehicles, and dependable after-sales support
+                        continues to earn customer loyalty.
+                    </p>
+
+                </div>
+
+                <!-- Statistics -->
+                <div
+                    class="bg-[#111827] p-8 rounded-2xl shadow-lg hover:-translate-y-2 hover:shadow-amber-500/20 transition duration-300">
+
+                    <i class="fas fa-chart-line text-4xl text-amber-500 mb-5"></i>
+
+                    <h3 class="text-2xl font-bold mb-6">
+                        Company Statistics
+                    </h3>
+
+                    <div class="space-y-4">
+
+                        <div>
+                            <h4 class="text-3xl font-bold text-amber-500">20+</h4>
+                            <p class="text-gray-400">Years Experience</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-3xl font-bold text-amber-500">5,000+</h4>
+                            <p class="text-gray-400">Vehicles Sold</p>
+                        </div>
+
+                        <div>
+                            <h4 class="text-3xl font-bold text-amber-500">98%</h4>
+                            <p class="text-gray-400">Customer Satisfaction</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Leadership -->
+                <div
+                    class="bg-[#111827] p-8 rounded-2xl shadow-lg hover:-translate-y-2 hover:shadow-amber-500/20 transition duration-300">
+
+                    <i class="fas fa-user-tie text-4xl text-amber-500 mb-5"></i>
+
+                    <h3 class="text-2xl font-bold mb-6">
+                        Leadership Team
+                    </h3>
+
+                    <div class="space-y-4 text-gray-300">
+
+                        <div>
+                            <strong>Chief Executive Officer</strong>
+                        </div>
+
+                        <div>
+                            <strong>Operations Director</strong>
+                        </div>
+
+                        <div>
+                            <strong>Sales Manager</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CTA ================= -->
+
+    <section class="py-24 bg-amber-500 text-black">
+
+        <div class="max-w-4xl mx-auto px-6 text-center">
+
+            <h2 class="text-4xl md:text-5xl font-bold">
+                Building Trust Through Every Journey
+            </h2>
+
+            <p class="mt-6 text-lg">
+                Discover quality vehicles backed by professional service and a commitment to customer satisfaction.
+            </p>
+
+            <a href="cars.html"
+                class="inline-block mt-8 bg-black text-white px-8 py-4 rounded-lg font-bold hover:bg-gray-900">
+
+                Explore Our Cars
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="bg-black py-10">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+
+                <div>
+
+                    <div class="flex items-center gap-3">
+
+                        <i class="fas fa-car-side text-amber-500 text-2xl"></i>
+
+                        <h3 class="text-xl font-bold">
+                            EJIMAX-C WHEELS LTD
+                        </h3>
+
+                    </div>
+
+                    <p class="text-gray-400 mt-3">
+                        Drive Excellence. Own Confidence.
+                    </p>
+
+                    <p class="text-gray-500 mt-2">
+                        © 2026 EJIMAX-C WHEELS LTD. All Rights Reserved.
+                    </p>
+
+                </div>
+
+                <div class="flex gap-6 text-2xl">
+
+                    <a href="#" class="hover:text-amber-500">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+
+                    <a href="#" class="hover:text-amber-500">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="hover:text-amber-500">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#" class="hover:text-amber-500">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+         // Get the dropdown button and menu elements
+            const dropdownButton = document.getElementById('dropdownButton');
+            const dropdownMenu = document.getElementById('dropdownMenu');
+
+            // Toggle the dropdown menu visibility when the button is clicked
+            dropdownButton.addEventListener('click', () => {
+                dropdownMenu.classList.toggle('hidden');
+            });
+
+            // Close the dropdown menu when clicking outside of it
+            window.addEventListener('click', (event) => {
+                if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                    dropdownMenu.classList.add('hidden');
+                }
+            });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJIMAX-C WHEELS LTD | Premium Automobile Sales</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body class="bg-[#0B0F19] text-white">
+
+    <!-- ================= HEADER ================= -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-black/50 backdrop-blur-md border-b border-gray-800">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex justify-between items-center h-20">
+
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center gap-3">
+                    <i class="fas fa-car-side text-3xl text-amber-500"></i>
+                    <span class="font-bold text-xl md:text-2xl">
+                        EJIMAX-C WHEELS LTD
+                    </span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center gap-8">
+
+                    <a href="index.html" class="text-amber-500 font-semibold">
+                        HOME
+                    </a>
+
+                    <a href="about.html" class="hover:text-amber-500 transition">
+                        ABOUT US
+                    </a>
+
+                    <a href="services.html" class="hover:text-amber-500 transition">
+                        SERVICES
+                    </a>
+
+                    <!-- Dropdown -->
+                    <div class="relative dropdown">
+
+                        <button id="dropdownButton" class="hover:text-amber-500 transition flex items-center gap-2">
+                            OUR CARS
+                            <i class="fas fa-chevron-down text-xs"></i>
+                        </button>
+
+                        <div id="dropdownMenu"
+                            class="dropdown-menu hidden absolute bg-[#111827] mt-3 w-56 rounded-lg shadow-xl border border-gray-700">
+
+                            <a href="cars.html" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">
+                                Convertibles
+                            </a>
+
+                            <a href="cars.html" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">
+                                SUVs
+                            </a>
+
+                            <a href="cars.html" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">
+                                Luxury & Sport
+                            </a>
+
+                            <a href="cars.html" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">
+                                Economical
+                            </a>
+
+                            <a href="cars.html" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">
+                                Mini-Trucks
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <a href="contact.html" class="hover:text-amber-500 transition">
+                        CONTACT
+                    </a>
+
+                    <a href="signin.html"
+                        class="bg-amber-500 px-5 py-2 rounded-lg text-black font-semibold hover:bg-amber-400">
+                        SIGN IN
+                    </a>
+
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="menu-btn" class="lg:hidden text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-[#111827] border-t border-gray-700">
+
+            <div class="flex flex-col p-5 space-y-4">
+
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="services.html">SERVICES</a>
+                <a href="cars.html">OUR CARS</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="signin.html">SIGN IN</a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="pt-36 pb-24">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+                <div>
+
+                    <span class="text-amber-500 font-semibold">
+                        PREMIUM AUTOMOBILE DEALERSHIP
+                    </span>
+
+                    <h1 class="text-5xl md:text-7xl font-bold leading-tight mt-4">
+
+                        Drive Your
+                        <span class="text-amber-500">
+                            Dream Car
+                        </span>
+
+                        Today
+
+                    </h1>
+
+                    <p class="text-gray-400 mt-8 text-lg">
+
+                        Discover luxury, performance, and affordability in one destination.
+                        EJIMAX-C WHEELS LTD provides quality vehicles tailored to your lifestyle.
+
+                    </p>
+
+                    <div class="flex flex-wrap gap-4 mt-10">
+
+                        <a href="cars.html"
+                            class="bg-amber-500 text-black px-8 py-4 rounded-lg font-bold hover:bg-amber-400">
+
+                            Browse Cars
+
+                        </a>
+
+                        <a href="contact.html"
+                            class="border border-amber-500 px-8 py-4 rounded-lg hover:bg-amber-500 hover:text-black">
+
+                            Contact Us
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+                        class="rounded-2xl shadow-2xl" alt="Luxury Car">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CATEGORIES ================= -->
+    <section class="py-20 bg-[#111827]">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center mb-14">
+
+                Vehicle Categories
+
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+
+                <div class="bg-[#0B0F19] p-6 rounded-xl text-center">
+                    <i class="fas fa-sun text-4xl text-amber-500"></i>
+                    <h3 class="mt-4 font-bold">Convertibles</h3>
+                </div>
+
+                <div class="bg-[#0B0F19] p-6 rounded-xl text-center">
+                    <i class="fa-solid fa-car text-4xl text-amber-500"></i>
+                    <h3 class="mt-4 font-bold">SUVs</h3>
+                </div>
+
+                <div class="bg-[#0B0F19] p-6 rounded-xl text-center">
+                    <i class="fas fa-gem text-4xl text-amber-500"></i>
+                    <h3 class="mt-4 font-bold">Luxury & Sport</h3>
+                </div>
+
+                <div class="bg-[#0B0F19] p-6 rounded-xl text-center">
+                    <i class="fas fa-wallet text-4xl text-amber-500"></i>
+                    <h3 class="mt-4 font-bold">Economical</h3>
+                </div>
+
+                <div class="bg-[#0B0F19] p-6 rounded-xl text-center">
+                    <i class="fas fa-truck-pickup text-4xl text-amber-500"></i>
+                    <h3 class="mt-4 font-bold">Mini-Trucks</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= WHY US ================= -->
+    <section class="py-24">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center mb-16">
+
+                Why Choose EJIMAX-C?
+
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="bg-[#111827] p-8 rounded-xl">
+                    <i class="fas fa-award text-4xl text-amber-500"></i>
+                    <h3 class="text-2xl font-bold mt-4">Premium Quality</h3>
+                    <p class="text-gray-400 mt-4">
+                        Only carefully selected vehicles.
+                    </p>
+                </div>
+
+                <div class="bg-[#111827] p-8 rounded-xl">
+                    <i class="fas fa-handshake text-4xl text-amber-500"></i>
+                    <h3 class="text-2xl font-bold mt-4">Trusted Service</h3>
+                    <p class="text-gray-400 mt-4">
+                        Customer satisfaction is our priority.
+                    </p>
+                </div>
+
+                <div class="bg-[#111827] p-8 rounded-xl">
+                    <i class="fas fa-tags text-4xl text-amber-500"></i>
+                    <h3 class="text-2xl font-bold mt-4">Competitive Pricing</h3>
+                    <p class="text-gray-400 mt-4">
+                        Best value for every budget.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FEATURED CARS ================= -->
+    <section class="py-24 bg-[#111827]">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center mb-14">
+                Featured Vehicles
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="bg-[#0B0F19] rounded-xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1599912027765-a69c78bfa3aa?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold">Mercedes AMG</h3>
+                        <p class="text-gray-400 mt-3">
+                            Luxury performance sedan.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-[#0B0F19] rounded-xl overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1637859460045-ac3ae9ced99d?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold">Range Rover</h3>
+                        <p class="text-gray-400 mt-3">
+                            Premium SUV excellence.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-[#0B0F19] rounded-xl overflow-hidden">
+                    <img class="w-full object-cover" src="https://images.unsplash.com/photo-1607853554439-0069ec0f29b6?q=80&w=327&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold">BMW M Series</h3>
+                        <p class="text-gray-400 mt-3">
+                            Sports performance redefined.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="py-24">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center mb-14">
+                What Our Customers Say
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="bg-[#111827] p-8 rounded-xl">
+                    <p>"Excellent service and amazing vehicles."</p>
+                    <h4 class="mt-4 font-bold text-amber-500">— Michael A.</h4>
+                </div>
+
+                <div class="bg-[#111827] p-8 rounded-xl">
+                    <p>"Professional team and affordable prices."</p>
+                    <h4 class="mt-4 font-bold text-amber-500">— Sarah J.</h4>
+                </div>
+
+                <div class="bg-[#111827] p-8 rounded-xl">
+                    <p>"Highly recommended dealership."</p>
+                    <h4 class="mt-4 font-bold text-amber-500">— David O.</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="py-24 bg-amber-500 text-black">
+
+        <div class="max-w-5xl mx-auto px-6 text-center">
+
+            <h2 class="text-5xl font-bold">
+                Ready For Your Next Vehicle?
+            </h2>
+
+            <p class="mt-6 text-xl">
+                Browse our collection today and drive away with confidence.
+            </p>
+
+            <a href="cars.html" class="inline-block mt-8 bg-black text-white px-8 py-4 rounded-lg font-bold">
+                Explore Inventory
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-black py-10">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+
+                <div>
+
+                    <div class="flex items-center gap-3">
+
+                        <i class="fas fa-car-side text-amber-500 text-2xl"></i>
+
+                        <h3 class="text-xl font-bold">
+                            EJIMAX-C WHEELS LTD
+                        </h3>
+
+                    </div>
+
+                    <p class="text-gray-400 mt-3">
+                        Drive Excellence. Own Confidence.
+                    </p>
+
+                    <p class="text-gray-500 mt-2">
+                        © 2026 EJIMAX-C WHEELS LTD. All Rights Reserved.
+                    </p>
+
+                </div>
+
+                <div class="flex gap-6 text-2xl">
+
+                    <a href="#" class="hover:text-amber-500">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+
+                    <a href="#" class="hover:text-amber-500">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="hover:text-amber-500">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#" class="hover:text-amber-500">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+         // Get the dropdown button and menu elements
+            const dropdownButton = document.getElementById('dropdownButton');
+            const dropdownMenu = document.getElementById('dropdownMenu');
+
+            // Toggle the dropdown menu visibility when the button is clicked
+            dropdownButton.addEventListener('click', () => {
+                dropdownMenu.classList.toggle('hidden');
+            });
+
+            // Close the dropdown menu when clicking outside of it
+            window.addEventListener('click', (event) => {
+                if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                    dropdownMenu.classList.add('hidden');
+                }
+            });
+
+    </script>
+
+</body>
+
+</html>

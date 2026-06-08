@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign In | EJIMAX-C WHEELS LTD</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .desktop-dropdown:hover .desktop-dropdown-menu {
+            display: block;
+        }
+
+        .glass {
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+    </style>
+
+</head>
+
+<body class="bg-[#0B0F19] text-white">
+
+    <!-- ================= HEADER ================= -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-black/50 glass border-b border-gray-800">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex justify-between items-center h-20">
+
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center gap-3">
+
+                    <i class="fas fa-car-side text-3xl text-amber-500"></i>
+
+                    <h1 class="font-bold text-lg md:text-2xl">
+                        EJIMAX-C WHEELS LTD
+                    </h1>
+
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden lg:flex items-center gap-8 font-medium">
+
+                    <a href="index.html" class="hover:text-amber-500">HOME</a>
+                    <a href="about.html" class="hover:text-amber-500">ABOUT US</a>
+                    <a href="services.html" class="hover:text-amber-500">SERVICES</a>
+
+                    <!-- Dropdown -->
+                    <div class="relative desktop-dropdown">
+
+                        <button class="hover:text-amber-500 flex items-center gap-2">
+                            OUR CARS <i class="fas fa-chevron-down text-xs"></i>
+                        </button>
+
+                        <div
+                            class="desktop-dropdown-menu hidden absolute mt-3 w-64 bg-[#111827] border border-gray-700 rounded-xl overflow-hidden">
+
+                            <a href="cars.html"
+                                class="block px-5 py-3 hover:bg-amber-500 hover:text-black">Convertibles</a>
+                            <a href="cars.html" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">SUVs</a>
+                            <a href="cars.html" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">Luxury /
+                                Sport</a>
+                            <a href="cars.html"
+                                class="block px-5 py-3 hover:bg-amber-500 hover:text-black">Economical</a>
+                            <a href="cars.html"
+                                class="block px-5 py-3 hover:bg-amber-500 hover:text-black">Mini-Trucks</a>
+
+                        </div>
+
+                    </div>
+
+                    <a href="contact.html" class="hover:text-amber-500">CONTACT</a>
+
+                    <a href="signin.html" class="text-amber-500 font-semibold">SIGN IN</a>
+
+                </nav>
+
+                <!-- Mobile -->
+                <button id="menuBtn" class="lg:hidden text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-[#111827] border-t border-gray-700">
+
+            <div class="px-6 py-5 flex flex-col space-y-5">
+
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="services.html">SERVICES</a>
+
+                <p class="text-amber-500 font-semibold">OUR CARS</p>
+
+                <div class="ml-4 flex flex-col space-y-2 text-gray-300">
+
+                    <a href="cars.html">Convertibles</a>
+                    <a href="cars.html">SUVs</a>
+                    <a href="cars.html">Luxury / Sport</a>
+                    <a href="cars.html">Economical</a>
+                    <a href="cars.html">Mini-Trucks</a>
+
+                </div>
+
+                <a href="contact.html">CONTACT</a>
+                <a href="signin.html" class="text-amber-500">SIGN IN</a>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="pt-40 pb-20 text-center">
+
+        <div class="max-w-4xl mx-auto px-6">
+
+            <p class="text-amber-500 uppercase tracking-[4px] text-lg font-semibold">
+                Account Access
+            </p>
+
+            <h1 class="text-5xl md:text-7xl font-bold mt-6">
+                Welcome Back
+                <span class="block text-amber-500 mt-3">
+                    To EJIMAX-C
+                </span>
+            </h1>
+
+            <p class="text-gray-400 mt-8 text-lg">
+                Sign in to access your dashboard or create an account to join our automotive community.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FORM ================= -->
+    <section class="pb-24">
+
+        <div class="max-w-4xl mx-auto px-6">
+
+            <div class="bg-[#111827] p-10 rounded-2xl">
+
+                <h2 class="text-3xl font-bold text-center text-amber-500 mb-8">
+                    Account Login
+                </h2>
+
+                <form class="space-y-6">
+
+                    <!-- Email -->
+                    <input type="email" placeholder="Email Address"
+                        class="w-full p-4 bg-[#0B0F19] border border-gray-700 rounded-lg outline-none focus:border-amber-500">
+
+                    <!-- Password -->
+                    <input type="password" placeholder="Password"
+                        class="w-full p-4 bg-[#0B0F19] border border-gray-700 rounded-lg outline-none focus:border-amber-500">
+
+                    <!-- Buttons -->
+                    <div class="grid md:grid-cols-2 gap-6">
+
+                        <!-- Sign In -->
+                        <button type="button"
+                            class="w-full bg-amber-500 text-black font-bold py-4 rounded-lg hover:bg-amber-400 transition">
+
+                            Sign In
+
+                        </button>
+
+                        <!-- Register -->
+                        <button type="button"
+                            class="w-full border border-amber-500 text-amber-500 font-bold py-4 rounded-lg hover:bg-amber-500 hover:text-black transition">
+
+                            Register Now
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="py-24 bg-amber-500 text-black text-center">
+
+        <div class="max-w-4xl mx-auto px-6">
+
+            <h2 class="text-4xl md:text-5xl font-bold">
+                Join Our Automotive Community
+            </h2>
+
+            <p class="mt-6 text-lg">
+                Get access to exclusive vehicle listings and premium offers.
+            </p>
+
+            <a href="cars.html"
+                class="inline-block mt-8 bg-black text-white px-8 py-4 rounded-lg font-bold hover:bg-gray-900 transition">
+
+                Browse Cars
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-black py-10">
+
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+
+            <div>
+
+                <div class="flex items-center gap-3">
+
+                    <i class="fas fa-car-side text-amber-500 text-2xl"></i>
+
+                    <h3 class="font-bold">EJIMAX-C WHEELS LTD</h3>
+
+                </div>
+
+                <p class="text-gray-400 mt-2">Drive Excellence. Own Confidence.</p>
+
+                <p class="text-gray-500 text-sm">© 2026 EJIMAX-C WHEELS LTD</p>
+
+            </div>
+
+            <div class="flex gap-6 text-2xl">
+
+                <i class="fab fa-facebook hover:text-amber-500 cursor-pointer"></i>
+                <i class="fab fa-instagram hover:text-amber-500 cursor-pointer"></i>
+                <i class="fab fa-x-twitter hover:text-amber-500 cursor-pointer"></i>
+                <i class="fab fa-linkedin hover:text-amber-500 cursor-pointer"></i>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ================= SCRIPT ================= -->
+    <script>
+
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+    </script>
+
+</body>
+
+</html>

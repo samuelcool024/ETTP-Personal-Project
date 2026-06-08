@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Cars | EJIMAX-C WHEELS LTD</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .desktop-dropdown:hover .desktop-dropdown-menu {
+            display: block;
+        }
+
+        .glass {
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+    </style>
+
+</head>
+
+<body class="bg-[#0B0F19] text-white">
+
+    <!-- ================= HEADER ================= -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-black/50 glass border-b border-gray-800">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex justify-between items-center h-20">
+
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center gap-3">
+
+                    <i class="fas fa-car-side text-3xl text-amber-500"></i>
+
+                    <h1 class="font-bold text-lg md:text-2xl">
+                        EJIMAX-C WHEELS LTD
+                    </h1>
+
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden lg:flex items-center gap-8 font-medium">
+
+                    <a href="index.html" class="hover:text-amber-500">HOME</a>
+                    <a href="about.html" class="hover:text-amber-500">ABOUT US</a>
+                    <a href="services.html" class="hover:text-amber-500">SERVICES</a>
+
+                    <!-- Dropdown -->
+                    <div class="relative desktop-dropdown">
+
+                        <button class="hover:text-amber-500 flex items-center gap-2">
+                            OUR CARS <i class="fas fa-chevron-down text-xs"></i>
+                        </button>
+
+                        <div
+                            class="desktop-dropdown-menu hidden absolute mt-3 w-64 bg-[#111827] border border-gray-700 rounded-xl overflow-hidden">
+
+                            <a href="#" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">Convertibles</a>
+                            <a href="#" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">SUVs</a>
+                            <a href="#" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">Luxury / Sport</a>
+                            <a href="#" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">Economical</a>
+                            <a href="#" class="block px-5 py-3 hover:bg-amber-500 hover:text-black">Mini-Trucks</a>
+
+                        </div>
+
+                    </div>
+
+                    <a href="contact.html" class="hover:text-amber-500">CONTACT</a>
+
+                    <a href="signin.html"
+                        class="bg-amber-500 text-black px-5 py-2 rounded-lg font-semibold hover:bg-amber-400">
+                        SIGN IN
+                    </a>
+
+                </nav>
+
+                <!-- Mobile -->
+                <button id="menuBtn" class="lg:hidden text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-[#111827] border-t border-gray-700">
+
+            <div class="px-6 py-5 flex flex-col space-y-5">
+
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="services.html">SERVICES</a>
+
+                <p class="text-amber-500 font-semibold">OUR CARS</p>
+
+                <div class="ml-4 flex flex-col space-y-2 text-gray-300">
+
+                    <a href="#">Convertibles</a>
+                    <a href="#">SUVs</a>
+                    <a href="#">Luxury / Sport</a>
+                    <a href="#">Economical</a>
+                    <a href="#">Mini-Trucks</a>
+
+                </div>
+
+                <a href="contact.html">CONTACT</a>
+                <a href="signin.html">SIGN IN</a>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="pt-40 pb-24 text-center">
+
+        <div class="max-w-5xl mx-auto px-6">
+
+            <p class="text-amber-500 uppercase tracking-[4px] font-semibold">
+                Our Vehicles
+            </p>
+
+            <h1 class="text-5xl md:text-7xl font-bold mt-6">
+                Find The Perfect Vehicle
+                <span class="text-amber-500 block mt-3">
+                    For Every Journey
+                </span>
+            </h1>
+
+            <p class="text-gray-400 mt-8 text-lg">
+                Explore our premium collection of luxury, SUV, economy and commercial vehicles.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= INTRO ================= -->
+    <section class="pb-24 text-center">
+
+        <div class="max-w-4xl mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-amber-500 mb-6">
+                Our Inventory
+            </h2>
+
+            <p class="text-gray-300 leading-9">
+                We offer a wide selection of carefully inspected vehicles sourced locally and internationally,
+                ensuring quality, performance and reliability for every customer.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CATEGORY GRID ================= -->
+    <section class="pb-24">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Convertibles -->
+                <div class="bg-[#111827] p-10 rounded-2xl text-center hover:-translate-y-2 transition">
+
+                    <i class="fas fa-sun text-5xl text-amber-500 mb-5"></i>
+                    <h3 class="text-2xl font-bold mb-3">Convertibles</h3>
+                    <p class="text-gray-400">Open-air luxury driving experience.</p>
+
+                </div>
+
+                <!-- SUVs -->
+                <div class="bg-[#111827] p-10 rounded-2xl text-center hover:-translate-y-2 transition">
+
+                    <i class="fa-solid fa-car text-4xl text-amber-500"></i>
+                    <h3 class="text-2xl font-bold mb-3">SUVs</h3>
+                    <p class="text-gray-400">Comfort, power and versatility.</p>
+
+                </div>
+
+                <!-- Luxury -->
+                <div class="bg-[#111827] p-10 rounded-2xl text-center hover:-translate-y-2 transition">
+
+                    <i class="fas fa-gem text-5xl text-amber-500 mb-5"></i>
+                    <h3 class="text-2xl font-bold mb-3">Luxury / Sport</h3>
+                    <p class="text-gray-400">Premium performance vehicles.</p>
+
+                </div>
+
+                <!-- Economy -->
+                <div class="bg-[#111827] p-10 rounded-2xl text-center hover:-translate-y-2 transition">
+
+                    <i class="fas fa-wallet text-5xl text-amber-500 mb-5"></i>
+                    <h3 class="text-2xl font-bold mb-3">Economical Cars</h3>
+                    <p class="text-gray-400">Affordable and fuel efficient.</p>
+
+                </div>
+
+                <!-- Mini Trucks -->
+                <div class="bg-[#111827] p-10 rounded-2xl text-center hover:-translate-y-2 transition">
+
+                    <i class="fas fa-truck-pickup text-5xl text-amber-500 mb-5"></i>
+                    <h3 class="text-2xl font-bold mb-3">Mini-Trucks</h3>
+                    <p class="text-gray-400">Reliable commercial transport solutions.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FEATURED VEHICLES (EXPANDED) ================= -->
+    <section class="pb-24">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center text-amber-500 mb-14">
+                Featured Vehicles
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Mercedes -->
+                <div class="bg-[#111827] rounded-2xl overflow-hidden hover:-translate-y-2 transition">
+
+                    <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2" class="w-full">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Mercedes-Benz AMG GT</h3>
+                        <p class="text-gray-400 mt-2">Luxury performance coupe</p>
+                    </div>
+
+                </div>
+                
+                <!-- BMW -->
+                <div class="bg-[#111827] rounded-2xl overflow-hidden hover:-translate-y-2 transition">
+
+                    <img src="https://images.unsplash.com/photo-1635770311293-b09d08a522fc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJtdyUyMG01fGVufDB8fDB8fHww" class="w-full">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">BMW M4 Competition</h3>
+                        <p class="text-gray-400 mt-2">Sport performance coupe</p>
+                    </div>
+
+                </div>
+
+                <!-- Range Rover -->
+                <div class="bg-[#111827] rounded-2xl overflow-hidden hover:-translate-y-2 transition">
+
+                    <img src="https://images.unsplash.com/photo-1652741938599-42b4aa7f1259?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-full">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Range Rover Sport</h3>
+                        <p class="text-gray-400 mt-2">Luxury SUV</p>
+                    </div>
+
+                </div>
+
+                <!-- Toyota Corolla -->
+                <div class="bg-[#111827] rounded-2xl overflow-hidden hover:-translate-y-2 transition">
+
+                    <img src="https://images.unsplash.com/photo-1638618164682-12b986ec2a75?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG95b3RhJTIwY29yb2xsYXxlbnwwfHwwfHx8MA%3D%3D" class="w-full">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Toyota Corolla</h3>
+                        <p class="text-gray-400 mt-2">Reliable economy sedan</p>
+                    </div>
+
+                </div>
+
+                <!-- Toyota Camry -->
+                <div class="bg-[#111827] rounded-2xl overflow-hidden hover:-translate-y-2 transition">
+
+                    <img src="https://images.unsplash.com/photo-1624578571415-09e9b1991929?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dG95b3RhJTIwY2FtcnklMjBzeGV8ZW58MHx8MHx8fDA%3D" class="w-full">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Toyota Camry XSE</h3>
+                        <p class="text-gray-400 mt-2">Mid-size premium sedan</p>
+                    </div>
+
+                </div>
+
+                <!-- Lexus RX -->
+                <div class="bg-[#111827] rounded-2xl overflow-hidden hover:-translate-y-2 transition">
+
+                    <img src="https://images.unsplash.com/photo-1702757329625-79a1fce52614?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxleHVzJTIwMzUwfGVufDB8fDB8fHww" class="w-full">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Lexus RX 350</h3>
+                        <p class="text-gray-400 mt-2">Luxury SUV comfort</p>
+                    </div>
+
+                </div>
+
+                <!-- Ford Ranger -->
+                <div class="bg-[#111827] rounded-2xl overflow-hidden hover:-translate-y-2 transition">
+
+                    <img src="https://images.unsplash.com/photo-1641974785913-63645632afe3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZvcmQlMjByYW5nZXJ8ZW58MHx8MHx8fDA%3D" class="w-full">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Ford Ranger</h3>
+                        <p class="text-gray-400 mt-2">Durable pickup truck</p>
+                    </div>
+
+                </div>
+
+                <!-- Honda Accord -->
+                <div class="bg-[#111827] rounded-2xl overflow-hidden hover:-translate-y-2 transition">
+
+                    <img class="" src="https://images.unsplash.com/photo-1642912832910-7d403ce697e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG9uZGElMjBhY2NvcmR8ZW58MHx8MHx8fDA%3D" class="w-full">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Honda Accord</h3>
+                        <p class="text-gray-400 mt-2">Comfortable sedan</p>
+                    </div>
+
+                </div>
+
+                <!-- Nissan Altima -->
+                <div class="bg-[#111827] rounded-2xl overflow-hidden hover:-translate-y-2 transition">
+
+                    <img src="https://en.arabgt.com/wp-content/uploads/2023/08/2024-Nissan-Altima-1-768x509.jpg" class="w-full">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Nissan Altima</h3>
+                        <p class="text-gray-400 mt-2">Efficient family car</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= WHY BUY ================= -->
+    <section class="pb-24">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center text-amber-500 mb-14">
+                Why Buy From Us
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <div class="bg-[#111827] p-8 rounded-2xl text-center">
+                    <i class="fas fa-certificate text-4xl text-amber-500 mb-4"></i>
+                    <h3 class="font-bold">Certified Vehicles</h3>
+                </div>
+
+                <div class="bg-[#111827] p-8 rounded-2xl text-center">
+                    <i class="fas fa-tags text-4xl text-amber-500 mb-4"></i>
+                    <h3 class="font-bold">Best Pricing</h3>
+                </div>
+
+                <div class="bg-[#111827] p-8 rounded-2xl text-center">
+                    <i class="fas fa-headset text-4xl text-amber-500 mb-4"></i>
+                    <h3 class="font-bold">Customer Support</h3>
+                </div>
+
+                <div class="bg-[#111827] p-8 rounded-2xl text-center">
+                    <i class="fas fa-car text-4xl text-amber-500 mb-4"></i>
+                    <h3 class="font-bold">Wide Selection</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROCESS ================= -->
+    <section class="pb-24">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center text-amber-500 mb-14">
+                Purchase Process
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <div class="bg-[#111827] p-8 rounded-2xl text-center">
+                    <div
+                        class="w-14 h-14 mx-auto mb-4 rounded-full bg-amber-500 text-black flex items-center justify-center font-bold">
+                        01</div>
+                    <h3 class="font-bold">Browse</h3>
+                </div>
+
+                <div class="bg-[#111827] p-8 rounded-2xl text-center">
+                    <div
+                        class="w-14 h-14 mx-auto mb-4 rounded-full bg-amber-500 text-black flex items-center justify-center font-bold">
+                        02</div>
+                    <h3 class="font-bold">Select</h3>
+                </div>
+
+                <div class="bg-[#111827] p-8 rounded-2xl text-center">
+                    <div
+                        class="w-14 h-14 mx-auto mb-4 rounded-full bg-amber-500 text-black flex items-center justify-center font-bold">
+                        03</div>
+                    <h3 class="font-bold">Paperwork</h3>
+                </div>
+
+                <div class="bg-[#111827] p-8 rounded-2xl text-center">
+                    <div
+                        class="w-14 h-14 mx-auto mb-4 rounded-full bg-amber-500 text-black flex items-center justify-center font-bold">
+                        04</div>
+                    <h3 class="font-bold">Delivery</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="py-24 bg-amber-500 text-black text-center">
+
+        <div class="max-w-4xl mx-auto px-6">
+
+            <h2 class="text-4xl md:text-5xl font-bold">
+                Ready To Drive Your Dream Car?
+            </h2>
+
+            <p class="mt-6 text-lg">
+                Explore our inventory and find the perfect match today.
+            </p>
+
+            <a href="contact.html"
+                class="inline-block mt-8 bg-black text-white px-8 py-4 rounded-lg font-bold hover:bg-gray-900 transition">
+
+                Contact Our Team
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-black py-10">
+
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+
+            <div>
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-car-side text-amber-500 text-2xl"></i>
+                    <h3 class="font-bold">EJIMAX-C WHEELS LTD</h3>
+                </div>
+                <p class="text-gray-400 mt-2">Drive Excellence. Own Confidence.</p>
+                <p class="text-gray-500 text-sm">© 2026 EJIMAX-C WHEELS LTD</p>
+            </div>
+
+            <div class="flex gap-6 text-2xl">
+                <i class="fab fa-facebook hover:text-amber-500 cursor-pointer"></i>
+                <i class="fab fa-instagram hover:text-amber-500 cursor-pointer"></i>
+                <i class="fab fa-x-twitter hover:text-amber-500 cursor-pointer"></i>
+                <i class="fab fa-linkedin hover:text-amber-500 cursor-pointer"></i>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ================= SCRIPT ================= -->
+    <script>
+
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+    </script>
+
+</body>
+
+</html>

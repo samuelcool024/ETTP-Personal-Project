@@ -1,0 +1,33 @@
+ENSG AI CLASS 
+
+Assignment 2 - Personal Portfolio Site
+
+Using multiple prompts and vibe engineering (not vibe coding), build a Personal Portfolio Site
+
+Let your photo be on the site. Decide whether the photo should be in the hero section or some other place
+
+You can choose to make the site a one-pager and or a site with multiple pages
+
+Create an ATS-Compliant Resume / CV and link it to the hero section of your site
+
+Display the multiple prompts that you used
+
+Also display the engineering work that you did on the original vibe code
+
+Add comments to your code
+
+Include projects completed in the program. Each program should have its own card box
+
+Each card box should show a high level summary of what the project set out to solve 
+
+It should also show how you went about it from design to coding to delivery
+
+There should be a footer
+
+Both the footer and the menu bar should be sticky...in case you choose to include a menu bar
+
+*********
+
+
+
+

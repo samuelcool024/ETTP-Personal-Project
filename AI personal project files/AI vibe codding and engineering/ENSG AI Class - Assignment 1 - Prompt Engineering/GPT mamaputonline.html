@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MamaPutOnline | Fresh Nigerian Meals Delivered</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Tailwind Custom Colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        milk: "#FAF7F2",
+                        darkred: "#8B0000",
+                        deepblue: "#0A2342",
+                        darkgreen: "#008435",
+                        brown: "#8B5E3C"
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: system-ui, sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-milk scroll-smooth">
+
+    <!-- HEADER -->
+    <header class="sticky top-0 z-50 w-full min-h-[20vh]  bg-gradient-to-br from-darkred to-red-500 shadow-lg">
+
+        <div class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="flex items-center justify-between py-5">
+
+                <!-- LOGO -->
+                <div class="flex items-center gap-3 flex-1">
+
+                    <i class="fa-solid fa-bowl-food text-white text-2xl"></i>
+
+                    <div>
+                        <h1 class="text-white font-extrabold text-2xl">MamaPutOnline</h1>
+                        <p class="text-white/80 text-sm">Fresh Nigerian Meals</p>
+                    </div>
+
+                </div>
+
+                <!-- NAV -->
+                <nav
+                    class="hidden md:flex items-center justify-center gap-10 bg-white/20 backdrop-blur-md rounded-full px-8 py-3">
+
+                    <a href="#products" class="text-deepblue font-bold text-lg">Products</a>
+                    <a href="#services" class="text-deepblue font-bold text-lg">Services</a>
+                    <a href="#customer-service" class="text-deepblue font-bold text-lg">Customer Service</a>
+                    <a href="#contact" class="text-deepblue font-bold text-lg">Contact Us</a>
+
+                </nav>
+
+                <!-- SEARCH -->
+                <div class="hidden md:flex flex-1 justify-end">
+                    <div class="flex items-center bg-white px-5 py-3 rounded-full w-72 shadow-lg">
+
+                        <input type="text" placeholder="Search meals..."
+                            class="flex-1 bg-transparent outline-none text-gray-700">
+
+                        <i class="fa-solid fa-magnifying-glass text-deepblue"></i>
+
+                    </div>
+                </div>
+            </div>  
+        </div> 
+    </header>
+    
+    <!-- HERO -->
+    <div class="flex py-6 px-10 gap-3 bg-gradient-to-br from-blue-900 to-darkred">
+        <div><h2 class="text-white text-2xl md:text-3xl lg:text-4xl font-bold leading-tight max-w-3xl">
+            Hunger Should Never Wait — Get Hot, Fresh Nigerian Meals Delivered To You In Minutes.
+        </h2>
+
+        <a href="#products"
+            class="mt-8 inline-block bg-brown text-white px-8 py-4 rounded-xl font-bold hover:bg-deepblue transition">
+            Order Now
+        </a>
+        </div>
+
+        <div class="">
+            <img src="./assets/hero dish set.webp" alt="Delicious Nigerian Food" class="w-full h-full rounded-xl object-cover">
+        </div>
+        
+
+    </div>
+
+    <!-- MAIN -->
+    <main class="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="flex">
+
+            <!-- SIDEBAR -->
+            <aside
+                class="hidden lg:block w-[20%] min-h-[25vh] mt-6 bg-white border border-green-800 rounded-lg shadow p-5">
+
+                <h2 class="text-center text-deepblue font-bold uppercase border-b pb-3 mb-5">
+                    Categories
+                </h2>
+
+                <ul class="space-y-4">
+
+                    <li>
+                        <a href="#products" class="flex gap-3 items-center">
+                            <i class="fa-solid fa-utensils text-green-700"></i>
+                            <span class="text-deepblue font-semibold">Products</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#services" class="flex gap-3 items-center">
+                            <i class="fa-solid fa-motorcycle text-green-700"></i>
+                            <span class="text-deepblue font-semibold">Services</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#customer-service" class="flex gap-3 items-center">
+                            <i class="fa-solid fa-headset text-green-700"></i>
+                            <span class="text-deepblue font-semibold">Customer Service</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="flex gap-3 items-center">
+                            <i class="fa-solid fa-phone text-green-700"></i>
+                            <span class="text-deepblue font-semibold">Contact Us</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </aside>
+
+            <!-- CONTENT -->
+            <section class="w-full lg:w-[80%] lg:pl-8 mt-10 space-y-24">
+
+                <!-- SERVICES -->
+                <section id="services" class="text-center">
+
+                    <h2 class="text-darkred font-extrabold text-4xl">Services</h2>
+
+                    <p class="mt-6 text-deepblue/80 max-w-3xl mx-auto text-lg">
+                        MamaPutOnline delivers freshly cooked Nigerian meals straight to your doorstep through fast
+                        dispatch riders. We also handle bulk food preparation for events and ceremonies.
+                    </p>
+
+                </section>
+
+                <!-- PRODUCTS (unchanged structure for brevity) -->
+                <!-- ==========================================
+                     PRODUCTS SECTION
+                =========================================== -->
+                <section id="products" class="text-center scroll-mt-32">
+                
+                    <h2 class="text-darkred font-extrabold text-4xl mb-10">
+                        Products
+                    </h2>
+                
+                    <div class="space-y-10">
+                
+                        <!-- ================= ROW 1 ================= -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                            <div
+                                class="bg-white rounded-xl shadow-lg overflow-hidden border hover:-translate-y-2 transition duration-300">
+                                <img src="./assets/Jollof-rice.jpeg" class="w-full h-44 object-cover">
+                                <div class="p-4">
+                                    <h3 class="text-deepblue font-bold">Jollof Rice Special</h3>
+                                    <p class="text-darkgreen font-semibold">1 Portion • ₦2500</p>
+                                    <a href="#"
+                                        class="block mt-3 bg-darkred text-white py-2 rounded-lg font-bold hover:bg-brown transition">
+                                        Order Now
+                                    </a>
+                                </div>
+                            </div>
+                
+                            <div
+                                class="bg-white rounded-xl shadow-lg overflow-hidden border hover:-translate-y-2 transition duration-300">
+                                <img src="./assets/egusi and semo.webp" class="w-full h-44 object-cover">
+                                <div class="p-4">
+                                    <h3 class="text-deepblue font-bold">Egusi Soup Combo</h3>
+                                    <p class="text-darkgreen font-semibold">2 Portions • ₦3000</p>
+                                    <a href="#"
+                                        class="block mt-3 bg-darkred text-white py-2 rounded-lg font-bold hover:bg-brown transition">
+                                        Order Now
+                                    </a>
+                                </div>
+                            </div>
+                
+                            <div
+                                class="bg-white rounded-xl shadow-lg overflow-hidden border hover:-translate-y-2 transition duration-300">
+                                <img src="./assets/fried_rice_recipe.webp" class="w-full h-44 object-cover">
+                                <div class="p-4">
+                                    <h3 class="text-deepblue font-bold">Fried Rice Deluxe</h3>
+                                    <p class="text-darkgreen font-semibold">1 Portion • ₦2800</p>
+                                    <a href="#"
+                                        class="block mt-3 bg-darkred text-white py-2 rounded-lg font-bold hover:bg-brown transition">
+                                        Order Now
+                                    </a>
+                                </div>
+                            </div>
+                
+                            <div
+                                class="bg-white rounded-xl shadow-lg overflow-hidden border hover:-translate-y-2 transition duration-300">
+                                <img src="./assets/vegitable soup.jpg" class="w-full h-44 object-cover">
+                                <div class="p-4">
+                                    <h3 class="text-deepblue font-bold">Vegetable Soup</h3>
+                                    <p class="text-darkgreen font-semibold">2 Portions • ₦3200</p>
+                                    <a href="#"
+                                        class="block mt-3 bg-darkred text-white py-2 rounded-lg font-bold hover:bg-brown transition">
+                                        Order Now
+                                    </a>
+                                </div>
+                            </div>
+                
+                        </div>
+                
+                        <!-- ================= ROW 2 ================= -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                            <div
+                                class="bg-white rounded-xl shadow-lg overflow-hidden border hover:-translate-y-2 transition duration-300">
+                                <img src="./assets/amala and ewedu.webp" class="w-full h-44 object-cover">
+                                <div class="p-4">
+                                    <h3 class="text-deepblue font-bold">Amala & Ewedu</h3>
+                                    <p class="text-darkgreen font-semibold">1 Portion • ₦2000</p>
+                                    <a href="#"
+                                        class="block mt-3 bg-darkred text-white py-2 rounded-lg font-bold hover:bg-brown transition">
+                                        Order Now
+                                    </a>
+                                </div>
+                            </div>
+                
+                            <div
+                                class="bg-white rounded-xl shadow-lg overflow-hidden border hover:-translate-y-2 transition duration-300">
+                                <img src="./assets/ofada rice and ayamase.png" class="w-full h-44 object-cover">
+                                <div class="p-4">
+                                    <h3 class="text-deepblue font-bold">Ofada Rice</h3>
+                                    <p class="text-darkgreen font-semibold">2 Portions • ₦3500</p>
+                                    <a href="#"
+                                        class="block mt-3 bg-darkred text-white py-2 rounded-lg font-bold hover:bg-brown transition">
+                                        Order Now
+                                    </a>
+                                </div>
+                            </div>
+                
+                            <div
+                                class="bg-white rounded-xl shadow-lg overflow-hidden border hover:-translate-y-2 transition duration-300">
+                                <img src="./assets/pepper soup.jpg" class="w-full h-44 object-cover">
+                                <div class="p-4">
+                                    <h3 class="text-deepblue font-bold">Pepper Soup</h3>
+                                    <p class="text-darkgreen font-semibold">1 Portion • ₦2700</p>
+                                    <a href="#"
+                                        class="block mt-3 bg-darkred text-white py-2 rounded-lg font-bold hover:bg-brown transition">
+                                        Order Now
+                                    </a>
+                                </div>
+                            </div>
+                
+                            <div
+                                class="bg-white rounded-xl shadow-lg overflow-hidden border hover:-translate-y-2 transition duration-300">
+                                <img src="./assets/Rice and stew.jfif" class="w-full h-44 object-cover">
+                                <div class="p-4">
+                                    <h3 class="text-deepblue font-bold">Rice & Stew</h3>
+                                    <p class="text-darkgreen font-semibold">2 Portions • ₦2600</p>
+                                    <a href="#"
+                                        class="block mt-3 bg-darkred text-white py-2 rounded-lg font-bold hover:bg-brown transition">
+                                        Order Now
+                                    </a>
+                                </div>
+                            </div>
+                
+                        </div>
+                
+                        <!-- ================= ROW 3 ================= -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                            <div
+                                class="bg-white rounded-xl shadow-lg overflow-hidden border hover:-translate-y-2 transition duration-300">
+                                <img src="./assets/nkwobi.jpg" class="w-full h-44 object-cover">
+                                <div class="p-4">
+                                    <h3 class="text-deepblue font-bold">Nkwobi</h3>
+                                    <p class="text-darkgreen font-semibold">1 Portion • ₦4000</p>
+                                    <a href="#"
+                                        class="block mt-3 bg-darkred text-white py-2 rounded-lg font-bold hover:bg-brown transition">
+                                        Order Now
+                                    </a>
+                                </div>
+                            </div>
+                
+                            <div
+                                class="bg-white rounded-xl shadow-lg overflow-hidden border hover:-translate-y-2 transition duration-300">
+                                <img src="./assets/bitterleaf and semo.jpg" class="w-full h-44 object-cover">
+                                <div class="p-4">
+                                    <h3 class="text-deepblue font-bold">Bitterleaf Soup</h3>
+                                    <p class="text-darkgreen font-semibold">2 Portions • ₦3000</p>
+                                    <a href="#"
+                                        class="block mt-3 bg-darkred text-white py-2 rounded-lg font-bold hover:bg-brown transition">
+                                        Order Now
+                                    </a>
+                                </div>
+                            </div>
+                
+                            <div
+                                class="bg-white rounded-xl shadow-lg overflow-hidden border hover:-translate-y-2 transition duration-300">
+                                <img src="./assets/catfish-pepper-soup.webp" class="w-full h-44 object-cover">
+                                <div class="p-4">
+                                    <h3 class="text-deepblue font-bold">Catfish Pepper Soup</h3>
+                                    <p class="text-darkgreen font-semibold">1 Portion • ₦3800</p>
+                                    <a href="#"
+                                        class="block mt-3 bg-darkred text-white py-2 rounded-lg font-bold hover:bg-brown transition">
+                                        Order Now
+                                    </a>
+                                </div>
+                            </div>
+                
+                            <div
+                                class="bg-white rounded-xl shadow-lg overflow-hidden border hover:-translate-y-2 transition duration-300">
+                                <img src="./assets/yam and egg sauce.jpg" class="w-full h-44 object-cover">
+                                <div class="p-4">
+                                    <h3 class="text-deepblue font-bold">Yam & Egg Sauce</h3>
+                                    <p class="text-darkgreen font-semibold">2 Portions • ₦2400</p>
+                                    <a href="#"
+                                        class="block mt-3 bg-darkred text-white py-2 rounded-lg font-bold hover:bg-brown transition">
+                                        Order Now
+                                    </a>
+                                </div>
+                            </div>
+                
+                        </div>
+                
+                    </div>
+                
+                </section>
+
+                <!-- CUSTOMER SERVICE -->
+                <section id="customer-service" class="text-center">
+
+                    <h2 class="text-darkred font-extrabold text-4xl">Customer Service</h2>
+
+                    <p class="mt-6 text-deepblue/80 max-w-3xl mx-auto text-lg">
+                        We are committed to top-notch service and always ready to handle complaints and feedback with
+                        priority.
+                    </p>
+
+                </section>
+
+                <!-- CONTACT -->
+                <section id="contact" class="text-center">
+
+                    <h2 class="text-darkred font-extrabold text-4xl mb-6">Contact Us</h2>
+
+                    <div class="text-black font-semibold space-y-3">
+
+                        <p class="flex justify-center items-center gap-2">
+                            <i class="fa-solid fa-envelope text-green-700"></i>
+                            mamaputonline@mail.com
+                        </p>
+
+                        <p class="flex justify-center items-center gap-2">
+                            <i class="fa-solid fa-phone text-green-700"></i>
+                            +234 000 123 01324
+                        </p>
+
+                        <p class="flex justify-center items-center gap-2">
+                            <i class="fa-solid fa-location-dot text-green-700"></i>
+                            20 Ogui Road, Enugu, Nigeria
+                        </p>
+
+                    </div>
+
+                </section>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="w-full mt-24 py-10 px-12 bg-gradient-to-br from-blue-900 to-darkred">
+
+        <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+
+            <!-- LOGO -->
+            <div class="flex items-center gap-3">
+                <i class="fa-solid fa-bowl-food text-white text-2xl"></i>
+                <span class="text-white font-extrabold text-xl">MamaPutOnline</span>
+            </div>
+
+            <!-- CENTER TEXT -->
+            <div class="text-center text-white space-y-2">
+                <p class="font-semibold">Thank you for choosing MamaPutOnline ❤️</p>
+                <p class="text-sm">© 2026 MamaPutOnline. All Rights Reserved.</p>
+            </div>
+
+            <!-- SOCIAL ICONS -->
+            <div class="flex gap-6 text-2xl">
+
+                <a href="#" class="text-white hover:text-deepblue">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="text-white hover:text-deepblue">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" class="text-white hover:text-deepblue">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" class="text-white hover:text-deepblue">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
+    
+</body>
+</html>
