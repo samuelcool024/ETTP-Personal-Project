@@ -5,6 +5,8 @@
 
 GPT prompt chat link ===  https://chatgpt.com/share/6a267446-d23c-83ea-975b-78741b437839
 
+(Folder structure)
+
 EJIMAX-C-WHEELS/
 │
 ├── index.html
@@ -18,6 +20,8 @@ EJIMAX-C-WHEELS/
     ├── images/
     └── js/
 
+
+===== prompt 1 =======
 Please, i have a project i would like us to work on together using html and tailwind css, and vscode an ide, to build an automobile sales company website named EJIMAX-C LTD, it will consist of a six paged website and will be in the following page order:- HOME, ABOUT US, SERVICES, OUR CARS, CONTACT, SIGN IN. please note that all pages will be independent of the other, but will be actively linked to its navigation list item in the header section. Note and always remember to make all pages fully responsive on all screen sizes, and all pages must be a single file format and not duplicated, all new code corrections should be added to its main page file.
 
 use a dark color background and a premium color theme suitable for the website
@@ -30,41 +34,77 @@ For the footer section should have the same company name and logo design, to the
 
 Remember to stick to maintaining a single page file for all six pages while adding future corrections to it, always maintain a responsive page design, all page navigation links will be responsive, the header and footer design should be consistent across all pages. 
 
+
+======= prompt 2 ========
 please go ahead and start the project as you listed in the development approach
 
-you did a beautiful job with the home page. 
 
-Moving to the next phase which is the about.html page. 
-for the about page content structuring, company story should be in bold text with its text below, perfectly centered, and aligned. then i would like you to make the other bullet point headers and their text to be in a card like format, which will appear in grid form on big screens and list form on small screens.   
+======= prompt 3 ========
+you did a beautiful job with the home page. Moving to the next phase which is the about.html page. for the about page content structuring, company story should be in bold text with its text below, perfectly centered, and aligned. then i would like you to make the other bullet point headers and their text to be in a card like format, which will appear in grid form on big screens and list form on small screens.
 
+
+======== prompt 4 =======
 please go ahead and generate the complete production-ready about.html file as structured with this layout and the same header/footer from the Home page.
 
+
+======= prompt 5 ======
 the outline you suggested is good, but i would still like the structure to mimic that of the about page structure, so the website can have some consistent identical arrangement features. you can best determine the size of the cards based on the ratio on contents it will contains, but i will recommend it should be neatly spacious, arranged and content aligned to the center of card. use the grid format too.
 
+
+======= prompt 6 =======
 good and clean suggestions, you can nor forge ahead to compile the services.html page
 
-your observation is beautiful, and i am delighted you came up with such idea, which will tackle navigation difficulty on mobiles. 
 
-please go ahead with the deliverable and complete production-ready services.html file features, and please stay consistent with the new improved template standard as u suggested across the remaining pages to ensure consistency  
+======= prompt 7 =======
+your observation is beautiful, and i am delighted you came up with such idea, which will tackle navigation difficulty on mobiles.
 
+
+======= prompt 8 =======
+please go ahead with the deliverable and complete production-ready services.html file features, and please stay consistent with the new improved template standard as u suggested across the remaining pages to ensure consistency
+
+
+======= prompt 9 =======
 Generate services.html now
 
+
+======= prompt 10 =======
 you have done a beautiful job so far. so lets proceed to the cars.html and follow the same structural philosophy used in about.html and services.html for a unified premium experience as you rightly stated above
 
+
+======= prompt 11 =======
 i love the proposed car.html structure, but keep in mind that the vehicle category grid should consist of the exact list of vehicle category dropdown, which are :- convertibles, suvs, luxury/sport, economical cars and mini trucks.
 
-please at the Featured vehicles section, just add more models of same car companies to the list, so that clients can have a wider range of featured vehicle models while browsing the page.
-then,
-Generate cars.html now
 
+======= prompt 12 =======
+please at the Featured vehicles section, just add more more models of same car companies to the list, so that clients can have a wider range of featured vehicle models while browsing the page. then, Generate cars.html now
+
+
+======= prompt 13 =======
 Generate contact.html
 
-in the signin.html also add a register now and a sign in button just below the email + password in same form. so that new clients can as well register and be a part of our community.
-then,
-Generate signin.html
 
-you have done a great job with this project, i applaud that. i would like us to halt at this current stage pending moving forward into the advanced stage when need be. 
-but my important request is that you help me run the final compilation of all web pages and assets into a single downloadable file, and do not forget to correct the index.html and about.html deader sections with the last new template, if need  be, before running the compiled downloadable file as requested
+======= prompt 14 =======
+in the signin.html also add a register now and a sign in button just below the email + password in same form. so that new clients can as well register and be a part of our community. then, Generate signin.html
 
 
+======= prompt 15 =======
+you have done a great job with this project, i applaud that. i would like us to halt at this current stage pending moving forward into the advanced stage when need be. but my important request is that you help me run the final compilation of all web pages and assets into a single downloadable file, and do not forget to correct the index.html and about.html deader sections with the last new template, if need be, before running the compiled downloadable file as requested
 
+
+======= prompt 16 =======
+ignore the index.html and about.html request and generate your downloadable ZIP file in one go
+
+
+======= prompt 17 =======
+Rebuild production ZIP properly
+
+
+======= prompt 18 =======
+Upgrade to enterprise production version1
+
+
+======= prompt 19 =======
+you have done a great job with this project, i applaud that. i would like us to halt at this current stage pending moving forward into the advanced stage when need be. but my important request is that you help me run the final compilation of all main web pages and assets into a single downloadable file
+
+
+======= prompt 20 =======

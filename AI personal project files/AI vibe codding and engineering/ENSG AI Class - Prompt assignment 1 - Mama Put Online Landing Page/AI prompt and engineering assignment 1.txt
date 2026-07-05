@@ -1,4 +1,4 @@
-###### &#x09;**ENSG AI CLASS, PROMPT AND VIBE ENGINEERING ASSIGNMENT 1**
+			**ENSG AI CLASS, PROMPT AND VIBE ENGINEERING ASSIGNMENT 1**
 
 
 
@@ -24,7 +24,6 @@ use milk white for the body background color, use dark red and deep blue for pri
 
 very importantly make sure the codes you provide are fully mobile responsive, also insert detailed comments for each section.
 
-&#x20;
 
 i will provide the necessary image files for the cards section, so do not use generated images.
 
@@ -55,8 +54,6 @@ i will provide the necessary image files for the cards section, so do not use ge
 
 
 2]	very importantly remember as i have stated earlier, do maintain a single consistent landing page file, all corrections and new additions should be made on the original page file, do not create an external page file, thanks.
-
-&#x09;
 
 
 
@@ -98,13 +95,9 @@ One side of the hero section should display the picture of a steaming, delicious
 
 1a] with the final result, do not add any additional upgrades, just run the final site merging where necessary and produce the final complete page with full colors as coded
 
-1b] please in this final index file, i would like you to change all emoji icons with suitable font awsome social icons, also the footer social icons too, in the code base, it will be better
+1b] please in this final index file, i would like you to change all emoji icons with suitable font awesome social icons, also the footer social icons too, in the code base, it will be better
 
 1c] yes please go ahead and update the code base with the new replacements
 
 1d]
-
-&#x20;
-
-&#x20;
 
