@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amadi Samuel Ejike | Full Stack Developer</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{font-family:Poppins,sans-serif}
+html{scroll-behavior:smooth}
+body{background:#030712;color:white}
+.bg-grid{background-image:linear-gradient(rgba(0,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(0,255,255,.05) 1px,transparent 1px);background-size:50px 50px}
+.glass{background:rgba(255,255,255,.04);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.08)}
+.neon-text{color:#22d3ee;text-shadow:0 0 10px #22d3ee,0 0 20px #22d3ee}
+.glow-btn{background:#06b6d4}
+.glow-btn:hover{box-shadow:0 0 15px #22d3ee,0 0 30px #22d3ee}
+.section-title{font-size:2.5rem;font-weight:700}
+.reveal{opacity:0;transform:translateY(40px);transition:.7s}
+.reveal.active{opacity:1;transform:translateY(0)}
+.skill-fill{height:10px;background:linear-gradient(90deg,#06b6d4,#2dd4bf);border-radius:999px}
+::-webkit-scrollbar{width:8px}
+::-webkit-scrollbar-thumb{background:#22d3ee}
+</style>
+</head>
+<body class="bg-grid">
+
+<nav class="fixed top-0 w-full bg-black/80 backdrop-blur z-50 border-b border-cyan-900">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between">
+    <h1 class="font-bold text-2xl">Samuel<span class="text-cyan-400">.</span></h1>
+    <div class="hidden md:flex gap-6">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+    <a href="#services">Services</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </div>
+    </div>
+</nav>
+
+<section id="home" class="min-h-screen flex items-center pt-24">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-10 items-center">
+    <div>
+    <p class="text-cyan-400">HELLO, I'M</p>
+    <h1 class="text-6xl font-extrabold">Amadi Samuel <span class="block text-cyan-400">Ejike</span></h1>
+    <h2 class="text-3xl md:text-4xl mt-4 font-semibold text-cyan-400">Full Stack Developer</h2>
+    <p class="text-slate-400 mt-6">I build responsive, scalable, and user-friendly web applications that help businesses establish a strong digital presence and solve real-world problems.</p>
+    <div class="flex gap-4 mt-8 flex-wrap">
+    <a href="#projects" class="glow-btn px-6 py-3 rounded">View Projects</a>
+    <a href="cv.pdf" download class="border border-cyan-500 px-6 py-3 rounded">Download CV</a>
+    <a href="#contact" class="border border-cyan-500 px-6 py-3 rounded">Hire Me</a>
+    </div>
+    </div>
+    <div class="flex justify-center">
+    <img src="./assets/IMG_20230716_170925_928.jpg" class="w-80 h-80 rounded-full border-4 border-cyan-400 object-cover" alt="Profile">
+    </div>
+    </div>
+</section>
+
+<section id="about" class="py-24 reveal">
+    <div class="max-w-7xl mx-auto px-6">
+    <h2 class="section-title text-center mb-10">About Me</h2>
+    <div class="grid lg:grid-cols-2 gap-8">
+    <div class="glass p-8 rounded-3xl">
+    <p>I'm a passionate Full Stack Developer who enjoys building modern, responsive, and scalable web applications.</p>
+    </div>
+    <div class="grid grid-cols-2 gap-4">
+    <div class="glass p-6 rounded-xl text-center"><div class="text-4xl neon-text">3+</div><p>Projects</p></div>
+    <div class="glass p-6 rounded-xl text-center"><div class="text-4xl neon-text">100%</div><p>Responsive</p></div>
+    <div class="glass p-6 rounded-xl text-center"><div class="text-4xl neon-text">24/7</div><p>Learning</p></div>
+    <div class="glass p-6 rounded-xl text-center"><div class="text-4xl neon-text">∞</div><p>Creativity</p></div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<section id="skills" class="py-24 reveal">
+    <div class="max-w-5xl mx-auto px-6">
+    <h2 class="section-title text-center mb-10">Skills</h2>
+    <div class="space-y-6">
+    <div><div class="flex justify-between"><span>HTML</span><span>85%</span></div><div class="bg-slate-800 h-3 rounded"><div class="skill-fill w-[95%]"></div></div></div>
+    <div><div class="flex justify-between"><span>CSS</span><span>60%</span></div><div class="bg-slate-800 h-3 rounded"><div class="skill-fill w-[60%]"></div></div></div>
+    <div><div class="flex justify-between"><span>Version Control</span><span>65%</span></div><div class="bg-slate-800 h-3 rounded"><div class="skill-fill w-[88%]"></div></div></div>
+    <div><div class="flex justify-between"><span>Tailwind CSS</span><span>70%</span></div><div class="bg-slate-800 h-3 rounded"><div class="skill-fill w-[70%]"></div></div></div>
+    <div><div class="flex justify-between"><span>Java Script</span><span>50%</span></div><div class="bg-slate-800 h-3 rounded"><div class="skill-fill w-[50%]"></div></div></div>
+    <div><div class="flex justify-between"><span>AI Prompt Engineering</span><span>85%</span></div><div class="bg-slate-800 h-3 rounded"><div class="skill-fill w-[85%]"></div></div></div>
+    </div>
+    </div>
+</section>
+
+<section id="services" class="py-18 reveal">
+    <div class="max-w-7xl mx-auto px-6">
+    <h2 class="section-title text-center mb-10">Services</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+    <div class="glass p-8 rounded-3xl"><h3 class="text-cyan-400 text-xl">Web Development</h3><p>Responsive websites and custom solutions.</p></div>
+    <div class="glass p-8 rounded-3xl"><h3 class="text-cyan-400 text-xl">Frontend Development</h3><p>Modern interactive user interfaces.</p></div>
+    <div class="glass p-8 rounded-3xl"><h3 class="text-cyan-400 text-xl">Full Stack Solutions</h3><p>Complete database-to-deployment systems.</p></div>
+    <div class="glass p-8 rounded-3xl"><h3 class="text-cyan-400 text-xl">System Version Control</h3><p>Complete database versioning for system updates.</p></div>
+    <div class="glass p-8 rounded-3xl"><h3 class="text-cyan-400 text-xl">AI Consultation</h3><p>AI Tech, skilled usage and full potential exploration for personal and enterprise level objective achievements </p></div>
+    </div>
+    </div>
+</section>
+
+<section id="projects" class="py-24 reveal">
+    <div class="max-w-7xl mx-auto px-6">
+    <h2 class="section-title text-center mb-3">Featured Work</h2>
+    <p class="text-center text-slate-400 mb-10">A selection of projects showcasing responsive designs, version iterations and modern web development.</p>
+
+    <div class="flex flex-col justify-center gap-10 mx-auto">
+
+        <div class="relative video-card w-[60%] max-w-[70%]  my-15 mx-auto glass rounded-3xl overflow-hidden hover:scale-[1.01] transition duration-300">
+            <!-- Video -->
+            <video class="myVideo" class="w-full rounded-lg shadow-lg"
+                src="./assets/web dev video card.mp4"></video>
+
+            <!-- Custom Control Button -->
+            <button 
+                class="playPauseBtn absolute top-1 left-1/2 transform -translate-x-1/2 text-white px-4 py-2 rounded-full shadow-md hover:bg-blue-700 focus:outline-none">
+                Play
+            </button>
+        </div>
+
+
+        <div class="relative video-card w-[60%] max-w-[70%] my-15 mx-auto glass rounded-3xl overflow-hidden hover:scale-[1.01] transition duration-300">
+            <!-- Video -->
+            <video class="myVideo" class="w-full rounded-lg shadow-lg" src="./assets/mega chicken video card.mp4"></video>
+
+            <!-- Custom Control Button -->
+            <button 
+                class="playPauseBtn absolute top-1  left-1/2 transform -translate-x-1/2 text-white px-4 py-2 rounded-full shadow-md hover:bg-blue-700 focus:outline-none">
+                Play
+            </button>
+        </div>
+
+
+        <div class="relative video-card w-[30%] max-w-[50%] h-30 py-15 mx-auto glass rounded-3xl overflow-hidden hover:scale-[1.01] transition duration-300">
+            <!-- Video -->
+            <video class="myVideo" class="w-full rounded-lg shadow-lg" src="./assets/AI educative video card.mp4"></video>
+
+            <!-- Custom Control Button -->
+            <button 
+                class="playPauseBtn absolute top-1 left-1/2 transform -translate-x-1/2 text-white px-4 py-2 rounded-full shadow-md hover:bg-blue-700 focus:outline-none">
+                Play
+            </button>
+        </div>
+
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+<section id="contact" class="py-24 reveal">
+<div class="max-w-4xl mx-auto px-6">
+<div class="glass rounded-3xl p-10 text-center">
+<h2 class="section-title">Let's Work Together</h2>
+<a href="mailto:samuelcool024@gmail.com" class="glow-btn px-8 py-4 rounded inline-block mt-4">samuelcool024@gmail.com</a>
+<div class="flex justify-center gap-6 mt-8">
+<a href="https://github.com/samuelcool024"><i class="fa-brands fa-github" style="color: rgb(255, 255, 255);"></i>GitHub</a>
+<a href="https://www.linkedin.com/in/samuel-amadi-53002a156/"><i class="fa-brands fa-linkedin" style="color: rgb(255, 255, 255);"></i>LinkedIn</a>
+<a href="https://x.com/Samuelcool02"><i class="fa-brands fa-x-twitter" style="color: rgb(255, 255, 255);"></i>Twitter</a>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="text-center py-8 border-t border-cyan-900">
+© 2026 Amadi Samuel Ejike • Built with HTML, Tailwind CSS & JavaScript
+</footer>
+
+<script>
+    const obs=new IntersectionObserver(entries=>{
+        entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('active')})
+    });
+    document.querySelectorAll('.reveal').forEach(x=>obs.observe(x));
+
+    document.querySelectorAll('.video-card').forEach(card => {
+            const video = card.querySelector('.myVideo');
+            const button = card.querySelector('.playPauseBtn');
+
+            button.addEventListener('click', () => {
+                if (video.paused) {
+                    video.play();
+                    button.textContent = 'Pause';
+                } else {
+                    video.pause();
+                    button.textContent = 'Play';
+                }
+            });
+        });
+
+
+</script>
+</body>
+</html>

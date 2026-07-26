@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AS E-DAY HOT JIST NIJA</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<style>
+body{background:#f6f7fb}.glass{backdrop-filter:blur(10px);background:rgba(255,255,255,.88)}
+.ticker{white-space:nowrap;overflow:hidden}.ticker span{display:inline-block;padding-left:100%;animation:move 28s linear infinite}
+@keyframes move{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+.card:hover{transform:translateY(-4px);transition:.25s}
+.pulse{display:inline-block;width:10px;height:10px;border-radius:9999px;background:#ef4444;
+animation:pulse 1.2s infinite}
+@keyframes pulse{0%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.4)}100%{opacity:1;transform:scale(1)}}
+.news-overlay{position:relative;overflow:hidden}
+.news-overlay img{transition:transform .35s}
+.news-overlay:hover img{transform:scale(1.05)}
+.badge{display:inline-block;background:#7A1026;color:#fff;padding:3px 10px;border-radius:999px;font-size:.72rem;font-weight:700}
+.meta{font-size:.75rem;color:#64748b}
+
+
+</style></head><body class="text-slate-800">
+<div id="progress" class="fixed top-0 left-0 h-1 bg-[#7A1026] z-[60]" style="width:0%"></div>
+<header class="glass sticky top-0 z-50 border-b shadow-sm">
+<div class="max-w-7xl mx-auto px-4 py-3 grid grid-cols-3 items-center">
+<div class="flex items-center gap-2"><i class="fa-solid fa-bolt text-yellow-500 text-2xl"></i>
+<div><h1 class="font-black text-xl text-[#7A1026]">AS E-DAY HOT JIST NIJA</h1><p class="text-xs">Nigeria's Everyday Trending Stories</p></div></div>
+<div class="text-center"><p class="font-bold text-[#0C2340]" id="today"></p></div>
+<div class="flex justify-end items-center gap-3"><button id="themeBtn" class="hidden md:block text-xs px-3 py-2 rounded bg-[#0C2340] text-white">🌙</button><div class="text-right"><p class="font-semibold">Amadi Samuel E.</p><p class="text-xs">Founder & Author</p></div><div class="w-12 h-12 rounded-full bg-slate-300 flex items-center justify-center"><i class="fa-solid fa-user"></i></div></div>
+</div>
+<nav class="bg-[#0C2340] text-white">
+<div class="max-w-7xl mx-auto flex flex-wrap items-center gap-5 px-4 py-2 text-sm">
+<div class="flex gap-5 overflow-x-auto">
+<a>Home</a><a>Politics</a><a>Business</a><a>Entertainment</a><a>Sports</a><a>Technology</a><a>Health</a><a>Education</a>
+</div>
+<div class="ml-auto flex items-center gap-2">
+<input class="rounded-md px-3 py-1 text-black text-xs w-40" placeholder="Search news...">
+<button class="bg-[#7A1026] px-3 py-1 rounded-md text-xs">Search</button>
+</div>
+</div></nav></header>
+<section class="bg-red-700 text-white ticker py-2"><div class="max-w-7xl mx-auto flex items-center gap-3 px-4"><span class="pulse"></span><strong>LIVE BREAKING NEWS</strong></div><span><b>BREAKING:</b> Nigeria updates • Business • Entertainment • Sports • Technology • Advertise with us.</span></section>
+<!--V13-->
+<section class="max-w-7xl mx-auto px-4 mt-6">
+<div class="rounded-2xl overflow-hidden shadow-lg bg-gradient-to-r from-[#7A1026] via-[#5a1830] to-[#0C2340] text-white">
+<div class="p-8">
+<div class="flex items-center gap-3">
+<svg width="34" height="34" viewBox="0 0 24 24" fill="#F5B301"><path d="M13 2L4 14h6l-1 8 11-14h-6l-1-6z"/></svg>
+<div>
+<h2 class="text-4xl font-black tracking-wide">AS E-DAY HOT JIST NIJA</h2>
+<p class="opacity-90">Fast • Reliable • Nigerian Stories That Matter</p>
+</div>
+</div>
+
+<div class="grid md:grid-cols-4 gap-4 mt-8">
+<div class="md:col-span-2">
+<img src="https://picsum.photos/900/450?city" class="rounded-xl w-full h-72 object-cover">
+<h3 class="text-3xl font-bold mt-4">Top Headline of the Day</h3>
+<p class="mt-2 opacity-90">Your lead story appears here with a strong headline and compelling summary to encourage readers to continue reading.</p>
+</div>
+<div class="space-y-4">
+<div class="bg-white/10 rounded-xl p-4"><span class="text-yellow-300 text-xs">POLITICS</span><h4 class="font-bold mt-1">Major political update</h4></div>
+<div class="bg-white/10 rounded-xl p-4"><span class="text-yellow-300 text-xs">BUSINESS</span><h4 class="font-bold mt-1">Markets and economy</h4></div>
+</div>
+<div class="space-y-4">
+<div class="bg-white/10 rounded-xl p-4"><span class="text-yellow-300 text-xs">SPORTS</span><h4 class="font-bold mt-1">Football roundup</h4></div>
+<div class="bg-white/10 rounded-xl p-4"><span class="text-yellow-300 text-xs">TECH</span><h4 class="font-bold mt-1">AI & innovation</h4></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<main class="max-w-7xl mx-auto p-4 grid lg:grid-cols-4 gap-6">
+<section class="lg:col-span-3 space-y-8">
+<div class="bg-white rounded-xl shadow overflow-hidden">
+<div class="news-overlay">
+<img src="https://picsum.photos/1200/500?news" class="w-full h-80 object-cover">
+<div style="position:absolute;left:0;right:0;bottom:0;padding:24px;background:linear-gradient(transparent,rgba(0,0,0,.85));color:#fff">
+<span class="badge">FEATURED</span>
+<h3 class="text-3xl font-black mt-2">Nigeria's Top Stories at a Glance</h3>
+<p class="text-sm opacity-90 mt-2">Curated updates from politics, business, sports and entertainment.</p>
+</div>
+</div>
+<div class="p-6"><span class="bg-[#7A1026] text-white px-3 py-1 rounded-full text-xs">TOP STORY</span>
+<h2 class="text-3xl font-black mt-3">Welcome to AS E-DAY HOT JIST NIJA</h2>
+<p class="mt-3">Professional newspaper-inspired homepage prototype.</p>
+<button class="mt-4 bg-[#7A1026] text-white px-5 py-2 rounded-lg">Read Full Story</button><div class="mt-4 flex gap-3 text-lg"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-x-twitter"></i><i class="fa-brands fa-whatsapp"></i></div></div></div>
+
+<section class="grid md:grid-cols-3 gap-4">
+<div class="md:col-span-2 bg-gradient-to-r from-[#7A1026] to-[#0C2340] text-white rounded-xl p-6">
+<p class="uppercase tracking-widest text-xs">Editor's Pick</p>
+<h2 class="text-3xl font-black mt-2">Today's Biggest Conversations Across Nigeria</h2>
+<p class="mt-3 text-slate-100">A quick roundup of politics, business, entertainment, sports and technology stories visitors are following today.</p>
+<div class="mt-5 flex gap-3">
+<button class="bg-white text-[#7A1026] px-4 py-2 rounded-lg font-semibold">Latest News</button>
+<button class="border border-white px-4 py-2 rounded-lg">Editor's Desk</button>
+</div>
+</div>
+<div class="bg-white rounded-xl shadow p-5">
+<h3 class="font-bold text-[#7A1026]">Quick Stats</h3>
+<div class="mt-4 space-y-3 text-sm">
+<div class="flex justify-between"><span>Categories</span><b>8</b></div>
+<div class="flex justify-between"><span>Featured Stories</span><b>10</b></div>
+<div class="flex justify-between"><span>Ad Slots</span><b>2</b></div>
+<div class="flex justify-between"><span>Newsletter</span><b>Active</b></div>
+</div>
+</div>
+</section>
+<h3 class="text-2xl font-bold text-[#0C2340]">Trending Stories</h3>
+<div class="grid md:grid-cols-2 xl:grid-cols-3 gap-5">
+<div class="card bg-white rounded-xl shadow overflow-hidden">
+<img src="https://picsum.photos/500/300?random=0" class="w-full h-44 object-cover">
+<div class="p-4"><span class="text-xs font-bold text-[#7A1026]">POLITICS</span>
+<h4 class="font-bold text-lg mt-2">Politics Update</h4><p class="text-sm mt-2">Government reforms.</p>
+<div class="meta mt-3">5 min read • Today</div><a class="inline-block mt-2 text-[#0C2340] font-semibold" href="#">Read More →</a></div></div><div class="card bg-white rounded-xl shadow overflow-hidden">
+<img src="https://picsum.photos/500/300?random=1" class="w-full h-44 object-cover">
+<div class="p-4"><span class="text-xs font-bold text-[#7A1026]">BUSINESS</span>
+<h4 class="font-bold text-lg mt-2">Business Update</h4><p class="text-sm mt-2">Investment opportunities.</p>
+<div class="meta mt-3">5 min read • Today</div><a class="inline-block mt-2 text-[#0C2340] font-semibold" href="#">Read More →</a></div></div><div class="card bg-white rounded-xl shadow overflow-hidden">
+<img src="https://picsum.photos/500/300?random=2" class="w-full h-44 object-cover">
+<div class="p-4"><span class="text-xs font-bold text-[#7A1026]">ENTERTAINMENT</span>
+<h4 class="font-bold text-lg mt-2">Entertainment Update</h4><p class="text-sm mt-2">Music headlines.</p>
+<div class="meta mt-3">5 min read • Today</div><a class="inline-block mt-2 text-[#0C2340] font-semibold" href="#">Read More →</a></div></div><div class="card bg-white rounded-xl shadow overflow-hidden">
+<img src="https://picsum.photos/500/300?random=3" class="w-full h-44 object-cover">
+<div class="p-4"><span class="text-xs font-bold text-[#7A1026]">SPORTS</span>
+<h4 class="font-bold text-lg mt-2">Sports Update</h4><p class="text-sm mt-2">Football updates.</p>
+<div class="meta mt-3">5 min read • Today</div><a class="inline-block mt-2 text-[#0C2340] font-semibold" href="#">Read More →</a></div></div><div class="card bg-white rounded-xl shadow overflow-hidden">
+<img src="https://picsum.photos/500/300?random=4" class="w-full h-44 object-cover">
+<div class="p-4"><span class="text-xs font-bold text-[#7A1026]">TECHNOLOGY</span>
+<h4 class="font-bold text-lg mt-2">Technology Update</h4><p class="text-sm mt-2">AI adoption.</p>
+<div class="meta mt-3">5 min read • Today</div><a class="inline-block mt-2 text-[#0C2340] font-semibold" href="#">Read More →</a></div></div><div class="card bg-white rounded-xl shadow overflow-hidden">
+<img src="https://picsum.photos/500/300?random=5" class="w-full h-44 object-cover">
+<div class="p-4"><span class="text-xs font-bold text-[#7A1026]">HEALTH</span>
+<h4 class="font-bold text-lg mt-2">Health Update</h4><p class="text-sm mt-2">Healthcare awareness.</p>
+<div class="meta mt-3">5 min read • Today</div><a class="inline-block mt-2 text-[#0C2340] font-semibold" href="#">Read More →</a></div></div><div class="card bg-white rounded-xl shadow overflow-hidden">
+<img src="https://picsum.photos/500/300?random=6" class="w-full h-44 object-cover">
+<div class="p-4"><span class="text-xs font-bold text-[#7A1026]">EDUCATION</span>
+<h4 class="font-bold text-lg mt-2">Education Update</h4><p class="text-sm mt-2">Digital learning.</p>
+<div class="meta mt-3">5 min read • Today</div><a class="inline-block mt-2 text-[#0C2340] font-semibold" href="#">Read More →</a></div></div><div class="card bg-white rounded-xl shadow overflow-hidden">
+<img src="https://picsum.photos/500/300?random=7" class="w-full h-44 object-cover">
+<div class="p-4"><span class="text-xs font-bold text-[#7A1026]">LIFESTYLE</span>
+<h4 class="font-bold text-lg mt-2">Lifestyle Update</h4><p class="text-sm mt-2">Creative entrepreneurs.</p>
+<div class="meta mt-3">5 min read • Today</div><a class="inline-block mt-2 text-[#0C2340] font-semibold" href="#">Read More →</a></div></div><div class="card bg-white rounded-xl shadow overflow-hidden">
+<img src="https://picsum.photos/500/300?random=8" class="w-full h-44 object-cover">
+<div class="p-4"><span class="text-xs font-bold text-[#7A1026]">COMMUNITY</span>
+<h4 class="font-bold text-lg mt-2">Community Update</h4><p class="text-sm mt-2">Positive stories.</p>
+<div class="meta mt-3">5 min read • Today</div><a class="inline-block mt-2 text-[#0C2340] font-semibold" href="#">Read More →</a></div></div>
+</div></section>
+<aside class="space-y-6">
+<div class="bg-white rounded-xl shadow p-5">
+<h3 class="font-bold text-[#0C2340] mb-3">🔥 Trending in Nigeria</h3>
+<ul class="space-y-3 text-sm">
+<li><span class="font-bold text-[#7A1026]">01.</span> Economy & Markets</li>
+<li><span class="font-bold text-[#7A1026]">02.</span> Politics Today</li>
+<li><span class="font-bold text-[#7A1026]">03.</span> Entertainment Buzz</li>
+<li><span class="font-bold text-[#7A1026]">04.</span> Sports Roundup</li>
+<li><span class="font-bold text-[#7A1026]">05.</span> AI & Technology</li>
+</ul>
+</div>
+<div class="bg-white rounded-xl shadow p-5"><h3 class="font-bold text-[#7A1026]">Trending Now</h3><ol class="mt-3 space-y-2 text-sm"><li>1. National</li><li>2. Entertainment</li><li>3. Sports</li><li>4. Tech</li><li>5. Business</li></ol></div>
+<div class="border-2 border-dashed border-[#7A1026] rounded-xl p-8 text-center bg-white"><h4 class="font-bold">Advertise Here</h4></div>
+<div class="border-2 border-dashed border-[#0C2340] rounded-xl p-8 text-center bg-white"><h4 class="font-bold">Sponsor This Section</h4></div>
+</aside></main>
+
+<section class="max-w-7xl mx-auto px-4 mb-10">
+<h2 class="text-2xl font-bold text-[#0C2340] mb-5">Featured Categories</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-3">
+<div class="bg-white rounded-xl shadow text-center p-4 hover:shadow-lg transition"><div class="text-[#7A1026] font-bold">Politics</div></div><div class="bg-white rounded-xl shadow text-center p-4 hover:shadow-lg transition"><div class="text-[#7A1026] font-bold">Business</div></div><div class="bg-white rounded-xl shadow text-center p-4 hover:shadow-lg transition"><div class="text-[#7A1026] font-bold">Sports</div></div><div class="bg-white rounded-xl shadow text-center p-4 hover:shadow-lg transition"><div class="text-[#7A1026] font-bold">Entertainment</div></div><div class="bg-white rounded-xl shadow text-center p-4 hover:shadow-lg transition"><div class="text-[#7A1026] font-bold">Technology</div></div><div class="bg-white rounded-xl shadow text-center p-4 hover:shadow-lg transition"><div class="text-[#7A1026] font-bold">Health</div></div><div class="bg-white rounded-xl shadow text-center p-4 hover:shadow-lg transition"><div class="text-[#7A1026] font-bold">Education</div></div><div class="bg-white rounded-xl shadow text-center p-4 hover:shadow-lg transition"><div class="text-[#7A1026] font-bold">Lifestyle</div></div></div></section>
+<section class="max-w-7xl mx-auto px-4 mb-10">
+<div class="grid lg:grid-cols-3 gap-6">
+<div class="bg-white rounded-xl shadow p-5">
+<h3 class="font-bold text-[#7A1026] mb-4">📈 Most Read Today</h3>
+<ol class="space-y-3">
+<li><b>1.</b> Nigeria's economic outlook</li>
+<li><b>2.</b> Entertainment headlines</li>
+<li><b>3.</b> Football transfer updates</li>
+<li><b>4.</b> AI changing local businesses</li>
+<li><b>5.</b> Education reforms</li>
+</ol>
+</div>
+
+<div class="bg-white rounded-xl shadow p-5">
+<h3 class="font-bold text-[#0C2340] mb-4">🌤 Weather Snapshot</h3>
+<div class="space-y-2 text-sm">
+<div class="flex justify-between"><span>Lagos</span><span>29°C ☀️</span></div>
+<div class="flex justify-between"><span>Abuja</span><span>27°C ⛅</span></div>
+<div class="flex justify-between"><span>Port Harcourt</span><span>28°C 🌦</span></div>
+<div class="flex justify-between"><span>Enugu</span><span>26°C 🌤</span></div>
+</div>
+</div>
+
+<div class="bg-gradient-to-br from-[#7A1026] to-[#0C2340] text-white rounded-xl shadow p-5">
+<h3 class="font-bold mb-4">Become a Sponsor</h3>
+<p class="text-sm opacity-90">Reserve premium advertising space for your brand and reach readers across Nigeria.</p>
+<button class="mt-5 bg-white text-[#7A1026] px-4 py-2 rounded-lg font-semibold">Advertise Now</button>
+</div>
+</div>
+</section>
+
+<section class="max-w-4xl mx-auto my-12 bg-[#0C2340] text-white rounded-xl p-8 text-center">
+<h3 class="text-2xl font-bold">Subscribe</h3><div class="mt-5 flex flex-col md:flex-row gap-3 justify-center"><input class="px-4 py-3 rounded-lg text-black w-full md:w-96" placeholder="Enter your email"><button class="bg-[#7A1026] px-6 rounded-lg">Subscribe</button></div></section>
+
+<section class="max-w-7xl mx-auto px-4 mb-10">
+<div class="grid lg:grid-cols-2 gap-6">
+<div class="bg-white rounded-xl shadow p-6">
+<h3 class="text-xl font-bold text-[#7A1026]">🎙 Editor's Corner</h3>
+<p class="mt-4 text-sm leading-7">
+Welcome to <b>AS E-DAY HOT JIST NIJA</b>. Our goal is to present important Nigerian stories in a clean, engaging and reader-friendly format. As the platform grows, this section can feature your personal editorial notes and weekly highlights.
+</p>
+</div>
+<div class="bg-white rounded-xl shadow p-6">
+<h3 class="text-xl font-bold text-[#0C2340]">🎥 Video Highlights</h3>
+<div class="mt-4 rounded-lg border-2 border-dashed border-slate-300 h-48 flex items-center justify-center text-slate-500">
+Video player placeholder
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-[#0C2340] text-white py-8 text-center"><p class="font-bold">⚡ AS E-DAY HOT JIST NIJA</p><p>© 2026 Amadi Samuel E.</p></footer>
+
+<button id="topBtn" class="fixed bottom-6 right-6 bg-[#7A1026] text-white w-12 h-12 rounded-full shadow-lg hidden">
+↑
+</button>
+<script>document.getElementById('today').textContent=new Date().toLocaleDateString('en-GB',{weekday:'long',year:'numeric',month:'long',day:'numeric'});</script>
+
+<script>
+window.addEventListener('scroll',()=>{
+ const s=document.documentElement.scrollTop;
+ const h=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+ document.getElementById('progress').style.width=(s/h*100)+'%';
+});
+</script>
+
+<script>
+const b=document.body;
+const t=document.getElementById('themeBtn');
+if(t){
+t.onclick=()=>{
+ b.classList.toggle('bg-slate-900');
+ b.classList.toggle('text-white');
+ document.querySelectorAll('.bg-white').forEach(c=>c.classList.toggle('bg-slate-800'));
+};
+}
+const topBtn=document.getElementById('topBtn');
+window.addEventListener('scroll',()=>{
+ if(window.scrollY>500){topBtn.classList.remove('hidden');}
+ else{topBtn.classList.add('hidden');}
+});
+topBtn.onclick=()=>window.scrollTo({top:0,behavior:'smooth'});
+</script>
+</body></html>
+
+
